@@ -1,0 +1,79 @@
+
+{
+
+    "name" : {
+
+        "main" : "Gmail",
+        "en"   : "Gmail",
+        "es"   : "Gmail"
+
+    },
+
+    "version" : "1.0",
+    "stage"   : "beta",
+    "api"     : "a100d2",
+
+    "language" : {
+
+        "default" : "en-en",
+        "list"    : [ "en-en" ]
+
+    },
+
+    "device" : {
+
+        "desktop" : {
+
+            "primary" : "main",
+            "service" : ["service.js"],
+            "common"  : {
+                "css"    : [],
+                "script" : [],
+                "start"  : []
+            },
+
+            "view" : {
+
+                "main" : {
+
+                    "template" : "main.html",
+
+                    "maxizable" : true,
+                    "resizable" : true,
+
+                    "width"  : {
+
+                        "default" : 464,
+                        "min"     : 464,
+                        "max"     : 0
+
+                    },
+
+                    "height" : {
+
+                        "default" : 536,
+                        "min"     : 536,
+                        "max"     : 0
+
+                    },
+
+                    "css"    : ["style.css"],
+                    "script" : ["script.js"],
+                    "start" : ["start.js"]
+
+                }
+
+            }
+
+        }
+
+    },
+
+    "permission" : {
+        "service" : true,
+        "feedback" : true,
+        "integration" : { "gmail" : true },
+        "fs" : { "create" : true, "modify" : true, "read" : true}
+    }
+
+}

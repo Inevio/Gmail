@@ -1,0 +1,837 @@
+
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('https://static.horbito.com/app/522/fonts/lato-bla-webfont.eot');
+    src: url('https://static.horbito.com/app/522/fonts/lato-bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://static.horbito.com/app/522/fonts/lato-bla-webfont.woff2') format('woff2'),
+         url('https://static.horbito.com/app/522/fonts/lato-bla-webfont.woff') format('woff'),
+         url('https://static.horbito.com/app/522/fonts/lato-bla-webfont.ttf') format('truetype'),
+         url('https://static.horbito.com/app/522/fonts/lato-bla-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoblack_italic';
+    src: url('https://static.horbito.com/app/522/fonts/lato-blaita-webfont.eot');
+    src: url('https://static.horbito.com/app/522/fonts/lato-blaita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://static.horbito.com/app/522/fonts/lato-blaita-webfont.woff2') format('woff2'),
+         url('https://static.horbito.com/app/522/fonts/lato-blaita-webfont.woff') format('woff'),
+         url('https://static.horbito.com/app/522/fonts/lato-blaita-webfont.ttf') format('truetype'),
+         url('https://static.horbito.com/app/522/fonts/lato-blaita-webfont.svg#latoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url('https://static.horbito.com/app/522/fonts/lato-bol-webfont.eot');
+    src: url('https://static.horbito.com/app/522/fonts/lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://static.horbito.com/app/522/fonts/lato-bol-webfont.woff2') format('woff2'),
+         url('https://static.horbito.com/app/522/fonts/lato-bol-webfont.woff') format('woff'),
+         url('https://static.horbito.com/app/522/fonts/lato-bol-webfont.ttf') format('truetype'),
+         url('https://static.horbito.com/app/522/fonts/lato-bol-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold_italic';
+    src: url('https://static.horbito.com/app/522/fonts/lato-bolita-webfont.eot');
+    src: url('https://static.horbito.com/app/522/fonts/lato-bolita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://static.horbito.com/app/522/fonts/lato-bolita-webfont.woff2') format('woff2'),
+         url('https://static.horbito.com/app/522/fonts/lato-bolita-webfont.woff') format('woff'),
+         url('https://static.horbito.com/app/522/fonts/lato-bolita-webfont.ttf') format('truetype'),
+         url('https://static.horbito.com/app/522/fonts/lato-bolita-webfont.svg#latobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('https://static.horbito.com/app/522/fonts/lato-lig-webfont.eot');
+    src: url('https://static.horbito.com/app/522/fonts/lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://static.horbito.com/app/522/fonts/lato-lig-webfont.woff2') format('woff2'),
+         url('https://static.horbito.com/app/522/fonts/lato-lig-webfont.woff') format('woff'),
+         url('https://static.horbito.com/app/522/fonts/lato-lig-webfont.ttf') format('truetype'),
+         url('https://static.horbito.com/app/522/fonts/lato-lig-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight_italic';
+    src: url('https://static.horbito.com/app/522/fonts/lato-ligita-webfont.eot');
+    src: url('https://static.horbito.com/app/522/fonts/lato-ligita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://static.horbito.com/app/522/fonts/lato-ligita-webfont.woff2') format('woff2'),
+         url('https://static.horbito.com/app/522/fonts/lato-ligita-webfont.woff') format('woff'),
+         url('https://static.horbito.com/app/522/fonts/lato-ligita-webfont.ttf') format('truetype'),
+         url('https://static.horbito.com/app/522/fonts/lato-ligita-webfont.svg#latolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('https://static.horbito.com/app/522/fonts/lato-reg-webfont.eot');
+    src: url('https://static.horbito.com/app/522/fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://static.horbito.com/app/522/fonts/lato-reg-webfont.woff2') format('woff2'),
+         url('https://static.horbito.com/app/522/fonts/lato-reg-webfont.woff') format('woff'),
+         url('https://static.horbito.com/app/522/fonts/lato-reg-webfont.ttf') format('truetype'),
+         url('https://static.horbito.com/app/522/fonts/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoitalic';
+    src: url('https://static.horbito.com/app/522/fonts/lato-regita-webfont.eot');
+    src: url('https://static.horbito.com/app/522/fonts/lato-regita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://static.horbito.com/app/522/fonts/lato-regita-webfont.woff2') format('woff2'),
+         url('https://static.horbito.com/app/522/fonts/lato-regita-webfont.woff') format('woff'),
+         url('https://static.horbito.com/app/522/fonts/lato-regita-webfont.ttf') format('truetype'),
+         url('https://static.horbito.com/app/522/fonts/lato-regita-webfont.svg#latoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, button, select
+{
+    user-select: text;
+}
+
+*{box-sizing:border-box;}
+
+*{margin:0px;padding:0px;}
+
+ul li{list-style:none;}
+
+a{text-decoration:none;  }
+
+.clr{clear:both;}
+
+input, textarea, select{ border:0px none; background:none; outline:none; font-size:14px; color:#323c3f;   font-family: 'latoregular'; }
+
+img{ outline:none; max-width:100%; height:auto; border:0px none; }
+
+h1, h2, h3, h4, h5, h6, strong, b{ font-weight:normal;  }
+
+input[type='submit']{  border-radius:0px; -webkit-appearance:none; appearance:none; outline:none; }
+
+textarea{ resize:none; overflow:auto; }
+
+:focus{ outline:none;}
+
+.clearfix:after{content:""; display:block; clear:both; height:0px; visibility:hidden; }
+
+.clearfix{ display:block; zoom:1; }
+
+em{ font-style:normal;  }
+
+body{ width:100%; color:#31465b; font-size:14px; background:url(https://static.horbito.com/app/522/hrgmail_mainWrap_pic.png) no-repeat center center; background-size:cover;   font-family: 'latoregular';transition:all 0.4s ease-in-out;  }
+
+.hidden{ overflow:hidden; }
+
+body.hidden{ overflow:hidden; }
+
+.autoContent{ margin:auto; padding:0px 20px; max-width:1320px;  }
+
+
+* { font-family: 'Arial'; letter-spacing: 0.02em; }
+.ui-window {width: 100%; height: 100%; background: white;position: relative;}
+.ui-header {background: #fff; border-bottom: 1px solid #f4f5f5; height: auto; }
+.ui-header-top { float: left; width: 100%; height: 54px; } 
+.ui-header-bottom { float: left; width: 100%; height: 42px; padding: 0px 0px 0px 0px;}
+.ui-header-brand { padding: 16px 18px;  margin-right:28px;}
+.ui-header-brand figure { float: left; }
+.ui-header-brand figure i { float: left; width: 22px; height: 16px; background: url(https://static.horbito.com/app/522/favicon-gmail@2x.png) no-repeat center center; background-size: 22px 16px; }
+.ui-header-brand span { float: left; margin-left: 14px; margin-top: -1px; font-size: 20px; color: #252525; font-weight: 900;}
+.ui-header-search { width:57%; float:left; padding: 7px 36px; }
+.ui-header-search figure { position:relative; background:#f3f3f3; border-radius:6px; height:36px; max-width:420px; }
+.ui-header-search figure:hover { background: #e5e5e5; }
+.ui-header-search figure b{width:30px; height:35px; background:url(https://static.horbito.com/app/522/Search@2x.png) 10px center no-repeat ;   background-size:16px 16px; content:""; display:block; position:absolute;}
+.ui-header-search figure input[type="text"] { width:100%; height:36px; padding: 0px 38px; line-height:26px; font-size:15px; font-family: 'latobold'; position:relative   }									  											  
+.ui-header-search figure a { width:13px; height:13px; display:block; background:url(https://static.horbito.com/app/522/hrgmail_hdr_srchDropDown@3x.png) no-repeat center center; background-size:9px auto; position:absolute; right:10px; top:12px; transition:all 0.3s ease;    }
+.ui-header-search figure a:hover{ opacity:0.8; }
+.ui-header-buttons { padding-top: 3px; padding-right: 2px; }
+.ui-header-profile-out{float: left;   padding-right: 28px;  padding-left: 15px;  width: 191px; text-align: center;}
+.ui-header-profile { width: 100%; }
+.ui-header-profile figure { float: left; width: 31px; height: 31px; border-radius: 50%; background: #e5e5e5;margin-right: 6px; overflow: hidden; }
+.ui-header-profile figure img { display: block; width: 100%; height: 100%; margin: auto; }
+.ui-header-profile span { font-size: 14px; line-height: 30px; color: #252525; padding-top: 6px;}
+.ui-header-profile span.selected-account-user-name { font-size: 15px; color: #252525; font-family: 'latobold';}
+.gmail-content { float: left; width: 100%; height: 100% ; position: static !important}
+
+
+
+/********************************start jam style*********************************/
+ 
+#hrgmail_wrapper{ width:100%; min-width:990px; }
+
+.hrgmail_leftBar{ background-color: rgba(30, 37, 48, 0.8); height: 100%; position: fixed; width: 66px; z-index: 2;}
+
+.hrgmail_rightContent{ width:100%; padding-left:66px; }
+
+.hrgmail_mainBox_outer{ width:100%; height:100%; position:absolute; left:0px; top:0px; z-index:1; }
+
+.hrgmail_mainBox_innr{ width:100%; height:100%; display:table; padding-left:66px; }
+
+.hrgmail_mainBox_cel{ display:table-cell; width:100%; height:100%;  vertical-align:middle; }
+
+.hrgmail_main_whiteBox{ max-width:990px; margin:auto; background:#fff; border-radius:4px; box-shadow:20px 20px 40px rgba(34,31,26,0.30); }
+
+.hrgmail_gmailContent_out{ width:100%; }
+
+.hrgmail_gmailContent_innr{ width:100%; }
+
+.hrgmail_box_header{ width:100%; padding:7px 19px 9px 17px; border-bottom:1px solid #eeeeee;  }
+
+.hrgmail_hdr_topSrch_navOut{ width:100%; padding-bottom:10px; }
+
+.hrgmail_hdr_logo{ width:21%; float:left; padding:7px 0px;  } 
+
+.hrgmail_hdr_logo span{ display:block; color:#000000; font-size:21px; line-height:22px; padding-left:34px; background:url(https://static.horbito.com/app/522/hrgmail_popHeader_logoIcon.png) no-repeat left center; background-size:22px auto; font-family: 'latoblack'; }
+
+.hrgmail_hdr_srchOut{ width:57%; float:left; }
+
+.hrgmail_hdr_srchbox{ position:relative; background:#e5e5e5; border-radius:4px; height:36px; max-width:420px; }
+
+.hrgmail_hdr_srchbox input[type="text"], .hrgmail_hdr_srchbox input[type="search"]{ width:100%; height:36px; padding:5px 35px 5px 40px; line-height:26px; font-size:15px; font-family: 'latobold'; background:url(https://static.horbito.com/app/522/hrgmail_hdr_srchIcon1@3x.png) no-repeat 14px center; background-size:16px auto;   }
+
+.hrgmail_hdr_srchbox_downArow{ width:13px; height:13px; display:block;background:url(https://static.horbito.com/app/522/gernalBlack.png) no-repeat -5px -618px; position:absolute; right:10px; top:12px; transition:all 0.3s ease; }
+
+.hrgmail_hdr_srchbox_downArow:hover{ opacity:0.8; }
+
+.hrgmail_hdr_miniMax_btns{ width:20%; float:right; }
+
+.hrgmail_hdr_miniMax_btns ul{ float:right; padding-top:3px; } 
+
+.hrgmail_hdr_miniMax_btns ul li{ float:left; padding-left:10px;  }
+
+.hrgmail_hdr_miniMax_btns ul li:first-child{ padding-left:0px; }
+
+.hrgmail_hdr_miniMax_btns ul li a{ width:28px; height:28px; display:block; transition:all 0.3s ease; padding:8px; border-radius:3px; }
+.hrgmail_hdr_miniMax_btns ul li a i{ display:block; width:12px; height:12px; transition:all 0.3s ease;  }
+
+.hrgmail_hdr_miniMax_btns ul li a.hrgmail_hdrButton_minimum i{ background:url(https://static.horbito.com/app/522/hrgmail_icon_min@3x.png) no-repeat bottom center; background-size:10px auto; }
+.hrgmail_hdr_miniMax_btns ul li a.hrgmail_hdrButton_maximum i{ background:url(https://static.horbito.com/app/522/hrgmail_icon_max@3x.png) no-repeat center center; background-size:12px auto; }
+.hrgmail_hdr_miniMax_btns ul li a.hrgmail_hdrButton_clos i{ background:url(https://static.horbito.com/app/522/hrgmail_icon_clos@3x.png) no-repeat center center; background-size:10px auto; }
+.hrgmail_hdr_miniMax_btns ul li a:hover{ background:#e5e5e5; }
+.hrgmail_hdr_miniMax_btns ul li a:hover i{ opacity:0.8; }
+
+
+.hrgmail_hdr_usrFormat_navOut{ width:100%; }
+
+.hrgmail_usrProfileOut{ width:21%; float:left;  } 
+.hrgmail_usrProfile{ width:100%; }
+.hrgmail_usrProfilePic{  width:31px; height:31px; margin-top: 2px; border-radius:50%; background:#989898; float:left; margin-right:6px; overflow:hidden; }
+.hrgmail_usrProfilePic img{ display:block; width:100%; height:100%; margin:auto; }
+.hrgmail_usrProfileName{ font-size:14px; line-height:18px; color:#252525; padding: 0px 0px 6px 0; float:left }
+.hrgmail_usrProfileName span{ font-size:14px;  color:#252525; font-family: 'latobold';  }
+
+.hrgmail_hdr_formatBar_out{width:calc(~"100% - 194px"); float:left; padding-right:15px; }
+.hrgmail_hdr_formatBar_left{ width:auto; float:left; }
+
+.hrgmail_chckRelod_formt_out{ width:100%; }
+.hrgmail_chckRelod_formt_out ul li{ float:left; padding-left:16px; position:relative; }
+.hrgmail_chckRelod_formt_out ul li:last-child{ padding-right:0px; }
+
+.hrgmail_allRead_btnType{ display:block; width:60px; border-radius:6px; border:1px solid #e0e0e0; background-color:#f6f5f6 !important; position:relative; height:30px; /* cursor:pointer; */  }
+.hrgmail_allRead_btnType:hover{ background-color: #e5e5e5 !important; }
+.hrgmail_pagination .hrgmail_allRead_btnType{width:78px;}
+.hrgmail_allRead_drop_checkOut{  }
+.hrgmail_allRead_drop_slct{ width:100%; height:100%; text-align:center; background:url(https://static.horbito.com/app/522/chevron-down@2x.png) no-repeat 40px center; background-size:7px 4px; position:relative; /* cursor:pointer;  */ }
+.hrgmail_allRead_drop_chckBox{ position:absolute;  cursor:pointer}
+.hrgmail_allRead_drop_chckBox{ width:13px; height:13px; position:absolute; left:15px; top:8px; background:url(https://static.horbito.com/app/522/sprite.png) no-repeat  -6px -851px  ;  border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;-webkit-border-radius:2px; }
+.hrgmail_allRead_drop_chckBox.hrgmail_check_input{ background:url(https://static.horbito.com/app/522/sprite.png) no-repeat  -6px -864px  ;   }
+
+.hrgmail_allRead_drop_chckBox input{ width:100%; height:100%; position:absolute; left:0px; top:0px; opacity:0; cursor:default;  }
+.hrgmail_allRead_reload{ background:url(https://static.horbito.com/app/522/sprite.png) no-repeat  18px -23px; }
+.hrgmail_backAero{ background:url(https://static.horbito.com/app/522/sprite.png) no-repeat  16px -294px;   }
+.hrgmail_archive_icon{ background:url(https://static.horbito.com/app/522/sprite.png) no-repeat   8px -71px;   border-radius: 6px 0 0 6px;}
+.hrgmail_spam{  background:url(https://static.horbito.com/app/522/sprite.png) no-repeat 9px -815px;  border-left: 0 none; border-radius: 0; border-right: 0 none; }
+.hrgmail_spam2{  background:url(https://static.horbito.com/app/522/sprite.png) no-repeat 17px -815px;}
+.hrgmail_delete_icon{   background:url(https://static.horbito.com/app/522/sprite.png) no-repeat 9px -535px;  border-radius: 0px 6px 6px 0px;}
+
+.hrgmail_labelMove_btnWidth .hrgmail_allRead_more_select{padding: 3px 0px 0px 0px; }
+.hrgmail_labelMove_btnWidth .hrgmail_allRead_more_select span{background-position:32px center;}
+
+.hrgmail_list_removespace { padding-left:0px !important;   }
+.hrgmail_list_btnWidth {  width:44px !important;}
+.hrgmail_moveinbox_icon    { text-align:center;border-radius: 6px 0 0 6px !important; border-right:none !important; }
+.hrgmail_labels .hrgmail_allRead_btnType { text-align:center;border-radius: 0px 6px 6px 0px !important;}
+.hrgmail_moveinbox_icon i { background:url(https://static.horbito.com/app/522/sprite.png) no-repeat  0 -708px; display:inline-block; width:22px; height:16px;}
+.hrgmail_labels i { background:url(https://static.horbito.com/app/522/sprite.png) no-repeat  0px -484px; display:inline-block; width:22px; height:16px; }
+.hrgmail_labelMove_btnWidth {  width:50px !important;}
+
+.hrgmail_allRead_more_select{ width:100%; padding:5px 16px 12px; position:relative; /* cursor:pointer; */ }
+.hrgmail_allRead_more{ width:72px; }
+.hrgmail_allRead_more_select span{ display:inline-block; padding-right:21px; background:url(https://static.horbito.com/app/522/chevron-down@2x.png) 40px 4px no-repeat; background-size: 7px 4px; min-height:14px; line-height:11px; font-size:13px; color:#797979; cursor:default; text-align:center; font-family: 'latoregular';}
+
+.hrgmail_hdr_formatBar_right{ width:auto; float:right; }
+.hrgmail_hdr_formatBar_right ul{ float:right; }
+.hrgmail_hdr_formatBar_right ul li{ float:left; padding-left:14px; }
+.hrgmail_hdr_formatBar_right ul li:first-child{ padding-left:0px; }
+
+.hrgmail_mailsOut_ofNo{ color:#252525; font-size:13px; line-height:20px; padding:7px 0px; }
+.hrgmail_mailsOut_ofNo strong{ font-family: 'latobold';  }
+
+.hrgmail_showMails_nextPrev{ overflow:hidden; background-color:#f5f5f5 !important; }
+.hrgmail_showMails_nextPrev span{ display:block; width:50%; float:left; height:30px; border-left:1px solid #dfdfdf;  }
+.hrgmail_showMails_nextPrev span:first-child{ border-left:0px none; }
+.hrgmail_showMails_nextPrev span i{ display:block; padding:1px 0px; width:100%; height:100%; position:relative; }
+.hrgmail_disabled:after{ width:100%; height:100%; position:absolute; left:0px; top:0px; content:""; cursor: no-drop;}
+.hrgmail_showMails_prev{ background:url(https://static.horbito.com/app/522/sprite.png) no-repeat 8px -349px;  }
+.hrgmail_showMails_next{ background:url(https://static.horbito.com/app/522/sprite.png) no-repeat 7px -506px; }
+.hrgmail_pagination .hrgmail_allRead_btnType:hover{ background-color: #f5f5f5 !important; }
+.hrgmail_allRead_btnType span a.hrgmail_showMails_prev:hover{ background-color: #e5e5e5 !important; }
+.hrgmail_allRead_btnType span a.hrgmail_showMails_next:hover{ background-color: #e5e5e5 !important; }
+.hrgmail_showMails_nextPrev span i.hrgmail_disabled { opacity:0.3; }
+
+
+.hrgmail_box_content{ width:100%; min-height:320px; position: absolute; left: 0px; right: 0px; bottom: 0px; top: 98px;}
+.hrgmail_box_contentInnr{ width:100%;position: relative; height: 100%; }
+.hrgmail_main_leftBar_outer{width:192px; position: absolute; left: 0px; top: 0px; height: 100%; float:left; border-right:1px solid #eeeeee;    background:#fff;  }
+.hrgmail_main_leftBar_innr{ width:100%; padding-top:12px; height: 100%; }
+.hrgmail_lftBr_composBtn_out{ width:100%; padding:0px 5px 20px 30px; }
+.hrgmail_lftBr_composBtn_out span{ display:block; width:130px; height: 38px; padding:5px 10px; text-align:center; color:#fff; font-size:17px; background:#e84c44; border-radius:6px; line-height:26px; font-family: 'latobold'; }
+.hrgmail_lftBr_composBtn_out span:hover{ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+#hrgmail_enteremail_area_main_reply .hrgmail_fileName{position: static !important;}
+
+.ho_gmail_mailDate{width: auto;padding: 10px;position: absolute;top: 0px;right: 0px;height: 39px;line-height: 21px;}
+.ho_gmail_mailDate span{color:#252525; font-size:13px;font-family: 'latoregular'; text-align:right; display:inline-block ; float:left;  min-width:58px;}
+.ho_gmail_mailDate a{ background:url(https://static.horbito.com/app/522/sprite.png) no-repeat;  display: inline-block; float: left; height: 10px; margin-top: 7px; width: 22px; background-position:0px -658px;}
+.hrgmail_lftBr_inbxMenue{ width:100%; padding-right:10px; overflow-x:hidden; overflow-y:auto;}
+.hrgmail_lftBr_inbxMenue ul li{ width:100%; position:relative; padding-left:14px; transition:all 0.3s ease; }
+.hrgmail_lftBr_inbxMenue ul li:after{ width:3px; height:100%; background:#e84c44; position:absolute; left:0; top:0; content:""; display:none; transition:all 0.3s ease;  }
+.hrgmail_lftBr_inbxMenue ul li span{ display:block; padding:5px 5px 5px 22px; line-height:18px; color:#252525; font-size:13px; transition:all 0.3s ease; font-family: 'latoregular'; cursor: pointer;  }
+.hrgmail_lftBr_inbxMenue ul li:hover span{ background:#f5f4f5; }
+.hrgmail_lftBr_inbxMenue ul li.hrgmail_active:after{ display:block; }
+.hrgmail_lftBr_inbxMenue ul li.hrgmail_active span{ color:#e84c44; font-family: 'latobold'; }
+.hrgmail_lftBr_inbxMenue ul li span b{ font-weight: bold; cursor:pointer;}
+
+
+
+
+
+
+.hrgmail_lftBr_addAccountsOut{ width: 100%;
+padding: 0px 10px 14px 0px;
+position: absolute;
+left: 0px;
+bottom: 15px; height: 120px; }
+
+.hrgmail_lftBr_addAccountsInnr{ width:100%;  padding-top:8px; border-top:1px solid #eeeeee;  }
+
+.hrgmail_lftBr_addAccountsTtile{ width:100%; padding-bottom:10px; }
+
+
+.hrgmail_lftBr_addAccountsTtile h2{ font-size:13px; line-height:16px;padding-left: 10px; color:#717171; font-family: 'latoregular';  }
+.hrgmail_lftBr_addAccountsTtile h2 span{ font-family: 'latobold';  }
+
+.hrgmail_lftBr_addAccountsTtile b{ width:15px; height:15px; padding:4px; display:block; background:url(https://static.horbito.com/app/522/sprite-gmail.png) no-repeat center center;  float:right; border-radius:3px; transition:all 0.3s ease; background-position:-14px 3.5px; }
+
+.hrgmail_lftBr_addAccountsTtile b:hover{  background-color:#e5e5e5 ; }
+
+.hrgmail_lftBr_adedAccunts_apended{ width:100%; max-height:96px; overflow-y:auto;}
+
+.hrgmail_lftBr_adedAccunts_apended ul li{ width:100%; padding-bottom:6px; position:relative;   }
+
+.hrgmail_lftBr_adedAccunts_apended ul li:last-child{ padding-bottom:0px; }
+
+.hrgmail_lftBr_adedAccunts_apended ul li:after{ width:3px; height:100%; background:#e84c44; position:absolute; left:0; top:-3px; content:""; display:none; transition:all 0.3s ease;  }
+
+
+.hrgmail_lftBr_adedAccunts_apended ul li.hrgmail_active:after{ display:block; }
+.hrgmail_lftBr_adedAccunts_apended ul li.hrgmail_active span{ color:#e84c44; font-family: 'latobold'; }
+
+.hrgmail_lftBr_adedAccunts_apended span{ font-size:13px; line-height:16px; color:#717171; display:block;  font-family: 'latobold'; cursor:pointer; }
+
+.hrgmail_lftBr_adedAccunts_apended span div{ width:20px; height:20px; display:block; float:left; border-radius:50%; margin-left: 10px; overflow:hidden; background:#e5e5e5; margin-right:8px;  }
+
+.hrgmail_lftBr_adedAccunts_apended span div img{ max-width:none; width:100%; height:100%; display:block; margin:auto;cursor:pointer  }
+
+.hrgmail_lftBr_adedAccunts_apended strong{ display: inline-block; padding-top: 3px; padding-right: 10px; cursor: pointer; width: calc(100% - 53px); font-size: 13px; font-family: 'latoregular';}
+
+.hrgmail_lftBr_adedAccunts_apended  i{  background:#e84c44; border-radius:16px; color:#fff; font-size:10px; line-height:16px; float:right; display:inline-block; padding:0px 5px; font-family: 'latobold'; font-style:normal; margin-top:3px; position:absolute; right:0px; top:0px;  }
+
+.hrgmail_message_contents{line-height:21px; font-size:14px;}
+
+.hrgmail_main_rightBar_outer { float:right; position: absolute; right: 0px; left: 192px; bottom: 0px; top: 0px;}
+
+.hrgmail_mailsContent  { width:100%; height:100%; overflow:auto;   }
+
+.hrgmail_mail { width:100%;}
+ 
+.hrgmail_check_mailOuter{width:90px; float:left; margin-top:8px; margin-left:4px;}
+.hrgmail_check_mail { width:15px; float:left; vertical-align:middle; text-align:center; position:relative; margin-top:3px;} 
+ 
+.hrgmail_check_mail label { display:inline-block; vertical-align:middle; width:15px; height:13px; position:static; } 
+
+.hrgmailStarred{display: inline-block;   height: 19px; width: 19px;  padding: 2px; text-align: center;   position:relative; float:left; margin-left:4px;}
+
+.hrgmailStarred label{height: 19px; width: 19px;display:block;background:url(https://static.horbito.com/app/522/star_PNG1593.png) no-repeat;}
+.hrgmailStarred label.select{height: 19px; width: 19px;display:block;background:url(https://static.horbito.com/app/522/star_PNG1592.png) no-repeat; }
+
+.hrgmailStarred label input[type="checkbox"]{width:100%; height:100%; display:block; position:absolute; top:0px; left:0px; opacity:0; cursor: pointer;}
+
+
+.hrgmaillistGmail{ height: 25px;   width: 33px; position:relative; float:left; margin-left:0px;}
+.hrgmaillistGmail label{background:url(https://static.horbito.com/app/522/sprite_importance2.png) no-repeat;background-position:10px 4px; display:block;  height: 19px;   height: 25px;  width: 33px;}
+.hrgmaillistGmail label.select{background:url(https://static.horbito.com/app/522/sprite_importance2.png) no-repeat;background-position: -29px 2px  ; display:block;  height: 19px;   height: 25px;  width: 33px;}
+.hrgmaillistGmail label input[type="checkbox"]{width:100%; height:100%; display:block;opacity:0; position:absolute; top:0px; left:0px; cursor:pointer;} 
+ 
+ .hrgmail_mail  {border-bottom:1px solid #e8e8e8;}
+ 
+ 
+.hrgmail_mailList { width:84.6%; padding-top:13px; padding-bottom:13px; display:inline-block; vertical-align:middle;  }
+
+.hrgmail_mailList label { color:#252525; font-size:13px; display:block; padding-bottom:0px; cursor:pointer;width:25%; float:left;overflow: hidden; white-space: nowrap; margin-right: 5px;}
+
+.hrgmail_mailList p { color:#717171; font-size:13px; cursor:pointer; width:74%; float:left; white-space:nowrap; overflow:hidden;} 
+.hrgmail_mailList p strong { color:#252525; font-size:13px;display:inline-block;   cursor:pointer}
+.hrgmail_mailList label span{ color: rgb(221, 75, 57);}
+
+.hrgmail_readMial { background:#f5f6f5; position:relative; cursor:pointer;} 
+.hrgmail_unReadMial { background:#fff; position:relative; cursor:pointer;} 
+ 
+.hrgmail_readMialDate { background:#f5f6f5;} 
+.hrgmail_unReadMialDate { background:#fff;}
+ 
+.hrgmail_unReadMial  .hrgmail_mailList label  {font-family: 'latobold'; }
+.hrgmail_unReadMial  .hrgmail_mailList strong  {font-family: 'latobold'; }
+ 
+ 
+ 
+ 
+ 
+ .hrgmail_newMessage_popup { width:450px; position:absolute; right:0px; bottom:0px;  border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;-webkit-border-radius: 4px; display:block;z-index: 1;box-shadow: 0px 10px 20px 0px rgba(34, 31, 26, 0.3);}
+ 
+ .hrgmail_newMessage_title {  background:#353b43; height:36px; width:100%; border-radius: 4px 4px 0px 0px;-moz-border-radius: 4px 4px 0px 0px;-ms-border-radius: 4px 4px 0px 0px;-o-border-radius: 4px 4px 0px 0px;-webkit-border-radius: 4px 4px 0px 0px; padding:0px 4px; cursor: pointer;}
+ 
+ .hrgmail_newMessage_title p { display:inline-block; line-height:36px; font-size:15px; font-family: 'latobold'; color:#fff; float:left; cursor: pointer; padding-left: 14px;}
+ 
+ 
+ 
+.hrgmail_newMsg_miniMax_btns{ width:40%; float:right;cursor: pointer;}
+
+.hrgmail_newMsg_miniMax_btns ul{ float:right; padding-top:6px; } 
+
+.hrgmail_newMsg_miniMax_btns ul li{ float:left; padding-left:10px;cursor: pointer;}
+
+.hrgmail_newMsg_miniMax_btns ul li:first-child{ padding-left:0px; }
+
+.hrgmail_newMsg_miniMax_btns ul li span{ width:24px; height:24px; display:block; transition:all 0.3s ease; padding:5px; border-radius:3px; cursor:pointer;}
+.hrgmail_newMsg_miniMax_btns ul li span i{ display:block; width:12px; height:12px; transition:all 0.3s ease; margin:auto; margin-top:2px;  }
+
+.hrgmail_newMsg_miniMax_btns ul li span.hrgmail_newMsgButton_minimum i{ background:url(https://static.horbito.com/app/522/hrgmail_icon_min@3xWhite.png) no-repeat bottom center; background-size:10px auto; }
+.hrgmail_newMsg_miniMax_btns ul li span.hrgmail_newMsgButton_maximum i{ background:url(https://static.horbito.com/app/522/hrgmail_icon_max@3xWhite.png) no-repeat center center; background-size:12px auto; }
+.hrgmail_newMsg_miniMax_btns ul li span.hrgmail_newMsgButton_clos i{ background:url(https://static.horbito.com/app/522/hrgmail_icon_clos@3xWhite.png) no-repeat center center; background-size:10px auto; }
+
+.hrgmail_newMsg_miniMax_btns ul li span:hover{ background:#737373; }
+.hrgmail_newMsg_miniMax_btns ul li span:hover i{ opacity:0.8; }
+ 
+ 
+.hrgmail_newMessage_content { width:100%; border:1px solid #c8c7c7;border-radius: 0px 0px 4px 4px;-moz-border-radius: 0px 0px 4px 4px;-ms-border-radius: 0px 0px 4px 4px;-o-border-radius: 0px 0px 4px 4px;-webkit-border-radius: 0px 0px 4px 4px; background:#fff;}
+ 
+.hrgmail_newMessage_fields { width:100%;} 
+ 
+
+
+.hrgmail_subject_to_field { width:100%; padding:10px 20px 10px; border-bottom:1px solid #e8e8e8; position:relative;}
+ 
+.hrgmail_subject_to_field input { width: calc(~"100% - 30px");  color:#777; font-size:14px; line-height: 24px;}
+.hrgmail_subject_to_field label { display: inline-block; float: left; line-height: 22px; margin-right: 4px; color: #777; font-size: 14px}
+
+.hrgmail_cc_bcc { position:absolute; right:20px; bottom:15px; width:auto;}
+
+.hrgmail_cc_bcc span {color:#717171; font-size:15px; display:inline-block; margin-left:10px; cursor:pointer;}
+.hrgmail_cc_bcc span:hover { text-decoration:underline;}
+
+.hrgmail_enteremail_area { width:100%; padding:10px 20px 10px; position:relative;}
+
+.hrgmail_enteremail_area .compose-message { width:100%; color:#717171; font-size:15px;font-family: 'latobold'; line-height: 24px; min-height:225px; padding: 10px;}
+
+.hrgmail_attachment_section { width:100%;padding:10px 20px 10px;}
+
+.hrgmail_attach_icon { width:100%;}
+
+.hrgmail_attach_icon { float:left; width:100px; position:relative;}
+
+.hrgmail_attach_icon span.hrgmail_attach_btn { background:url(https://static.horbito.com/app/522/attach-icon@2x.png) center center no-repeat; background-size:25px 26px; display:block; width:34px; height:34px;}
+.hrgmail_attach_icon span.hrgmail_attach_btn:hover { border-radius: 6px; border: 0px #e5e5e5 solid; background-color: #e5e5e5; }
+
+.hrgmail_enviar_bttn { width:auto; float:right;}
+
+.hrgmail_enviar_bttn span.send_draft { display:block; max-width:92px; padding:10px 25px; text-align:center; color:#fff; font-size:15px; background:#0071f6; border-radius:6px;  font-family: 'latobold'; float:left }
+
+.hrgmail_enviar_bttn span.send_draft:hover{ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+
+.hrgmail_defaultDropdown { min-width:155px; position:absolute; left:38px; top:0px; background:#fff; padding:13px 20px 0px;border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px; box-shadow:0px 20px 40px rgba(34, 31, 26, 0.3);-moz-box-shadow:0px 20px 40px rgba(34, 31, 26, 0.3);-ms-box-shadow:0px 20px 40px rgba(34, 31, 26, 0.3);-o-box-shadow:0px 20px 40px rgba(34, 31, 26, 0.3);-webkit-box-shadow:0px 20px 40px rgba(34, 31, 26, 0.3);   z-index:1;}
+
+.hrgmail_defaultDropdown  ul li { padding-bottom:15px; float:none; }
+
+.hrgmail_defaultDropdown  ul li span { color:#252525; font-size:13px; text-align:left; display:block; }
+
+
+.hrgmail_newMessage_popup.hrgmail_minimizeEmail { width:290px;}
+
+.hrgmail_newMessage_popup.hrgmail_minimizeEmail .hrgmail_newMessage_content { display:none;}
+
+
+.hrgmail_defaultDropdown.hrgmail_allCheck { padding-bottom:12px; padding-left:0px; padding-right:0px;  left: 0; top: 32px;}
+
+.hrgmail_defaultDropdown.hrgmail_allCheck ul li { padding-left:5px; padding-bottom:0px;}
+
+.hrgmail_defaultDropdown.hrgmail_allCheck ul li span {  line-height:24px; padding:0px 23px;background: none;}
+
+.hrgmail_defaultDropdown.hrgmail_allCheck ul li:hover {background:#e3e3e3 ;}
+
+.hrgmail_selectMessages { width:100%; padding: 10px 15px 0px;; border-top:1px solid #ccc;}
+
+.hrgmail_selectMessages i { font-style:normal;font-family: 'latolight_italic';}
+
+.hrgmail_defaultDropdown.hrgmail_unread  { min-width:185px; padding:15px 0px;}
+
+.hrgmail_defaultDropdown.hrgmail_unread  ul { padding-bottom:5px;}
+
+
+
+.hrgmail_successLayer {background: #fffac3 ;border:1px solid #f9e496; padding:6px 14px; width:115px; font-size:12px; font-weight:700; color:#55595e; position:absolute; left:50%; bottom:40px;box-shadow: 0 0 12px #ccc;-moz-box-shadow: 0 0 12px #ccc;-ms-box-shadow: 0 0 12px #ccc;-o-box-shadow: 0 0 12px #ccc;-webkit-box-shadow: 0 0 12px #ccc; display:none; z-index:1;}
+.hrgmail_errorLayer {background:#E84C44; color:#FFFFFF;border:1px solid #f9e496; padding:6px 14px; width:115px; font-size:12px; font-weight:700; position:absolute; left:50%; bottom:40px;box-shadow: 0 0 12px #ccc;-moz-box-shadow: 0 0 12px #ccc;-ms-box-shadow: 0 0 12px #ccc;-o-box-shadow: 0 0 12px #ccc;-webkit-box-shadow: 0 0 12px #ccc; display:none; z-index:1;}
+
+
+
+.hrgmail_readmailTitle { width:100%; padding: 14px 0px 8px 15px; background:#fff; border-bottom:1px solid #eeeeee;}
+
+.hrgmail_readmailTitle_text { width:100%;   }
+
+.hrgmail_readmailTitle_text h3 {font-family: 'latobold'; font-size:16px; color:#000;width:auto; float:left;}
+
+.hrgmail_readmailTitle_profile { width:100%; padding: 8px 18px 0px 10px; border-bottom: 1px solid #eeeeee; position:relative}
+
+.hrgmail_readmailTitle_profile .hrgmail_usrProfile { width:auto; float:left;margin-left: 10px;}
+
+.hrgmail_readmailTitle_profile .hrgmail_usrProfileName a {font-family: 'latobold'; font-size:15px;width:auto; float:left; }
+.hrgmailuserdetail{width:auto; float:left; position:relative;}
+.hrgmailuserdetail b{ background:url(https://static.horbito.com/app/522/chevron-down@2x.png) right center no-repeat;background-size: 7px 4px; font-style:normal; color:#717171; font-size:13px;font-family: 'latoregular'; display:inline-block; padding-right:15px; float:left; font-style:normal;}
+.hrgmailuserdetail p{color:#717171; font-size:13px;font-family: 'latoregular'; display:inline-block; padding-right:15px; float:left; font-style:normal;}
+
+.hrgmail_readmailTitle_profile .hrgmail_hdr_formatBar_right { width:auto; float:right;}
+.hrgmail_readmailTitle_profile  .hrgmail_mailsOut_ofNo strong { color:#717171;}
+.hrgmail_readmailTitle_profile .hrgmail_replybtn i{ background:url(https://static.horbito.com/app/522/hrmail_replybttn.png) no-repeat center center; background-size:13px auto;  } 
+.hrgmail_readmailTitle_profile .hrgmail_replybtn i:hover{     background-color: #e5e5e5;} 
+
+.hrgmail_readmailTitle_profile .hrgmail_hdr_srchDropDown i{ background: url(https://static.horbito.com/app/522/chevron-down@2x.png) 6px 14px no-repeat; background-size: 7px 4px;} 
+.hrgmail_readmailTitle_profile .hrgmail_hdr_srchDropDown i:hover{ background-color: #e5e5e5;}
+
+.hrgmail_readmailTitle_profile .hrgmail_replybtn { width:65%;}
+
+.hrgmail_readmailTitle_profile .hrgmail_hdr_srchDropDown { width:35%; }
+
+
+.hrgmail_readmailContent { width:100%; /* background:#f5f6f5; */}
+
+.hrgmail_dynamic_thread_messages{width: 100%}
+.hrgmail_readmail_text { background:#fff; width:100%; margin:auto; padding:20px 50px; font-size:20px;word-break: break-word;}
+
+.hrgmail_recipients span { width: 100%; height: 100%; color: #222; font-size: 13px; line-height: 25px; word-wrap: break-word;}
+.hrgmail_recipients span button { background: #f9f6f6; text-align: center; border-radius: 3px; border: 1px solid #e2d7d7; padding: 2px 7px 2px 7px;}
+
+.ui-header-buttons .ui-minimize, .ui-header-buttons .ui-maximize, .ui-header-buttons .ui-close{width:auto !important; height:auto !important}
+.jqte {  border: 0 none !important;  border-radius: 0px !important;  margin: 0 !important;  overflow: hidden !important;  transition: -moz-box-shadow 0.4s ease 0s, border 0.4s ease 0s;
+}
+.hrgmail_enteremail_area{padding:0px !important}
+.gmailstartScreen{  height: calc(100% - 145px); padding-top: 90px; width: 100%;}
+
+.gmail-dig{background-image: url(https://static.horbito.com/app/522/launchpad.png); background-repeat: no-repeat; display: block; height: 100px; margin-left: auto; margin-right: auto; width: 140px;}
+	
+.gmailstartScreen h1{display: block; margin: auto; margin-top: 50px; width: 220px; text-align: center; font-size: 60px; line-height: 26px; font-family: 'latobold';}
+.gmailstartScreen p{    display: block; margin: auto; margin-top: 40px; text-align: center; color: #968B8D; font-size: 17px; line-height: 26px; font-family: 'latobold';}
+.gmailstartScreen span{ display:block; margin: auto; margin-top: 42px; width:220px; padding:10px 10px; text-align:center; color:#968B8D; border: 2px solid #dadada; font-size:17px; border-radius:6px; line-height:26px; font-family: 'latobold';  cursor: pointer;}
+.gmailstartScreen span:hover{ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+
+.ho_gmail_error_success{left: 50%; margin: auto auto auto -150px; width: 100px; position: absolute; top: 88px;   }
+
+.ho_gmail_error_success span.mailsuccess{font-size:12px; font-weight:700; color:#55595e;width:auto; padding:3px 10px; background:#f9edbe; color:#000;font-family: 'latobold'; border:1px solid #f0c36d;display:none; text-align:center}
+
+.ho_gmail_error_success span.mailerror{font-size:12px; font-weight:700; color:#55595e;width:auto; padding:3px 10px; background:#E84C44; color:#FFFFFF;font-family: 'latobold'; border:1px solid #F06D6D;display:none;text-align:center}
+
+
+
+
+.hrgmail_noEmail{width:100%; padding:10px 0px; border-bottom: 1px solid #e5e5e5;}
+.hrgmail_noEmail span{color:#222; text-align:center; display:block; font-size:14px;}
+
+.remove-account{background: url(https://static.horbito.com/app/522/sprite-gmail.png)  no-repeat;  display: none;  height: 14px; position: absolute; right: 0; top: 6px; width: 15px;  cursor:pointer; background-position:-57px 0px;}
+
+.hrgmail_lftBr_adedAccunts_apended span:hover b.remove-account{display:block;  }
+.hrgmail_lftBr_adedAccunts_apended span:hover i{display:none;  }
+
+.hrgmail_attachmail{width:100%; border-top:1px dotted #000000; border-bottom:1px solid #000000;padding:30px 0px}
+.hrgmail_attachmailInner{ display: block;float: left;height: 120px;margin: 0 0 16px 16px; position: relative; width: 180px; border:1px solid #F5F5F5; overflow:hidden }
+.hrgmail_attachmailInner:after{ background:url(https://static.horbito.com/app/522/attachadge.png) no-repeat; bottom: 0; font-size: 0; content:""; height: 20px; position: absolute; right: 0px; width: 40px; z-index: 4;  }
+.hrGmailsaveDriveMain{cursor: pointer;}
+.hrgmail_top{ height: 85px;  position: relative;   text-align: center;}
+.hrgmail_content{background-color: #f5f5f5; border-top: 1px solid #e5e5e5;height: 120px;left: 0;position: absolute;right: 0;top: 0px; padding:9px 8px;}
+.hrgmail_inner{width:100%; padding-bottom:25px;cursor: pointer;}
+.hrgmailAttachcot{  width:16px; height:16px; float:left}
+.hrgmailAttachcot img{width:100%; height:100%; display:block;}
+
+.hrgmail_attachDetail{width:139px; float:left; padding-left:10px; overflow: hidden;white-space: normal; word-wrap: break-word; margin-right: 7px;cursor: pointer;}
+.hrgmail_attachDetail h3{font-size:14px; color:#575757;font-family: "latobold";  white-space: nowrap; word-wrap: break-word; }
+.hrgmail_attachDetail b{font-size:12px; color:#575757;}
+.hrGmailDownload{width:auto; margin-left:35px;    cursor: pointer;}
+.hrGmailDownload a.hrGmailDownload{width:30px; height:24px; background:url(https://static.horbito.com/app/522/arrow-down@2x.png) center center no-repeat #7F7F7F; background-size: 16px 16px; display:block; border-radius:2px; margin-left:0px; float:left;cursor: pointer;}
+.hrGmailDownload a.hrGmailDownload:hover{box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);}
+.hrGmailDownload a.hrGmailsaveDrive{width:30px; height:24px;  background:url(https://static.horbito.com/app/522/horbito@2x.png) center center no-repeat #7F7F7F; background-size: 16px 16px; display:block; border-radius:2px; margin-left:5px;float:left;cursor: pointer;}
+.hrGmailDownload a.hrGmailsaveDrive:hover{box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);}
+/*.hrGmailDownload a.hrGmailsaveDrive:hover{background-color:#7F7F7F;}
+ .hrgmail_attachmailInner:hover .hrgmail_content{top:0px;} */
+ 
+.hrgmailmailerInfo{background-color: #fff; height: auto;   width: 420px; border:1px solid #e5e5e5;position: absolute;  z-index: 10;top:20px;left:50px;}
+.hrgmailmailerInfoInner{ box-sizing: border-box;   cursor: auto;      padding:10px;max-height: 360px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);  }
+
+
+
+.hrgmailmailerInner {width:auto;}
+.hrgmailmailerInfo ul li{padding: 3px 0 5px 0;-webkit-touch-callout: text !important;
+-webkit-user-select: text !important;
+-khtml-user-select: text !important;
+-moz-user-select: text !important;
+-ms-user-select: text !important;
+user-select: text !important;
+user-select: text !important;
+user-select: text !important;}
+
+.hrgmailmailerInner label{width:90px; float:left; text-align:right;   color: #999;   text-align: right; padding-right:20px; font-size: 12px;}
+.hrgmailmailerInner span{width:300px; float:left; text-align:left; text-align: left !important; font-family: arial !important; font-size: 13px; color:#000;}
+.hrgmailmailerInner span strong{color:#000;}
+
+.hrgmailmailerInner label.select{background:url(https://static.horbito.com/app/522/sprite_importance2.png) no-repeat;background-position: -19px 0px; display:block;height: 18px;}
+.hrgmailmailerInner label input[type="checkbox"]{display:block;opacity:0; position:absolute; }
+/*tagsinput*/
+div.tagsinput{background:#FFF;width:300px;height:100px;overflow:auto;max-height:100px;}div.tagsinput span.tag{border:1px solid #dcdcdc;-moz-border-radius:2px;-webkit-border-radius:2px;display:block;float:left;padding:2px 0px 2px 7px;text-decoration:none;background:#f5f5f5;margin-right:5px;margin-bottom:5px;font-family:helvetica;font-size:13px}div.tagsinput span.tag a{color: #717171;font-weight:700;padding: 0px 5px 0px 0px;cursor: pointer;font-size:11px}div.tagsinput input{width:auto;margin:0 5px 5px 0;font-family:helvetica;font-size:13px;border:1px solid transparent;padding:0 5px;background:0 0;color:#000;outline:0;line-height: 18px !important;}div.tagsinput div{display:block;float:left}.tags_clear{clear:both;width:100%;height:0}.not_valid{background:#FBD8DB!important;color:#90111A!important}
+
+
+.hrgmail_importantMail{  float:left;   margin-left:20px; margin-top: -4px;}
+.hrgmailimoprtantInner{ height: 25px; width: 15px; position:relative; float:left;}
+.hrgmailimoprtantInner label{background:url(https://static.horbito.com/app/522/sprite_importance2.png) no-repeat;background-position:-3px 4px; display:block;  height: 100%;  width: 33px;}
+.hrgmailimoprtantInner label.select{background:url(https://static.horbito.com/app/522/sprite_importance2.png) no-repeat;background-position: -41px 4px  ; display:block;  height: 100%;  width: 33px;}
+.hrgmailimoprtantInner label input[type="checkbox"]{cursor: pointer;width:100%; height:100%; display:block;opacity:0; position:absolute; top:0px; left:0px; }
+.hrgmailstarredInner{ height: 18px; width: 17px; position:relative;}
+.hrgmailstarredInner label{background:url(https://static.horbito.com/app/522/star_PNG1593.png) no-repeat;display:block;height: 100%;width: 100%;}
+.hrgmailstarredInner label.select{background:url(https://static.horbito.com/app/522/star_PNG1592.png) no-repeat;display:block;height: 100%;width: 100%;}
+.hrgmailstarredInner label input[type="checkbox"]{cursor: pointer;width:100%; height:100%; display:block;opacity:0; position:absolute; top:0px; left:0px; }
+.hrgmailInbox{height:18px;background:#DDDDDD; float:left; margin-top:4px; margin-left:10px;}
+
+.hrgmailInbox span.hrmailInbox{width:46px; height:100%; text-align:center; line-height:18px; display:block; color:#666666; font-size:12px; float:left}
+
+.hrgmailInbox span.hrmailInboxclose{width:16px; height:100%; text-align:center; line-height:18px; display:block; color:#666666; font-size:12px;float:left}
+.hrgmailInbox span.hrmailInbox:hover{background:#191919;color:#fff;}
+.hrgmailInbox span.hrmailInboxclose:hover{background:#191919;color:#fff;}
+
+.hrgmail_move_to{width:auto; margin:0px 10px;}
+.hrgmail_move_to label{ color:#6e6e6e; font-size:11px; padding:10px 0px 5px;text-align:left; display:block }
+.hrgmail_move_to input[type="search"]{width:100%; height:20px; border:1px solid #bbbcbb; padding:2px;}
+
+.social_parmotions{width:auto; padding:10px 0px; border-bottom:1px solid #ebebeb;}
+.label_checkbox{margin-left:3px;width:15px;height: 15px;  position:relative; float:left; margin-top:4px;}
+.label_checkbox label{background:url(https://static.horbito.com/app/522/gernalBlack.png) no-repeat  -6px  -589px  ;  border-radius: 2px;
+    height: 15px;  width: 15px; display:block }
+.label_checkbox label input[type="checkbox"]{width:100%; height:100%; display:block; position:absolute; top:0px; left:0px; opacity:0;}
+.label_checkbox label.select{ background:url(https://static.horbito.com/app/522/gernalBlack.png) no-repeat  -6px -605px;   }
+
+
+.social_parmotions ul li {width:100%; padding-bottom:5px; padding-left:5px}
+.social_parmotions ul li a{color:#252525; font-size:13px;font-family: 'latoregular';text-align:left; display:block; background:none    }
+.lastParmotons{border-bottom:0px; padding-bottom:0px}
+.display_none{display:none !important;}
+.hrgmail_allRead_btnType2 {display: block;width: auto;border-radius: 3px;border: 1px solid #e0e0e0;background-color: #f6f5f6 !important;position: relative;height: 30px;cursor: pointer;}
+.hrgmail_allRead_btnType2 .hrgmail_static_btn{display: inline-block;padding: 8px;min-height: 14px;line-height: 14px;font-size: 13px;color: #797979;/* cursor: pointer; */text-align: center;}
+.hrgmail_allRead_btnType2 .hrgmail_static_btn:hover {background-color: #e5e5e5;}
+#hrgmail_labelas input[type="checkbox"]{width: 15px;float: left;vertical-align: middle;text-align: center;position: relative;margin-top: 6px;cursor: default;}  
+.hrgmail_main_reply_inner{width: 92%;float: left; margin-left: 1%;margin-bottom: 2%;}
+.hrgmailReplyer_img{ width: 40px; height: 30px; float: left; padding: 0px 5px; }
+.hrgmailReplyer_img span{width: 100%; height: 100%;display:block;  border-radius: 50%; overflow: hidden;}
+.hrgmailReplyer_img span img{/* width: 100%; */ height: 100%;display:block;   }
+.hrgmail_mailsContentDetails{height: 100%;}
+.hrgmail_dynamic_messages_outer{width: 100%; height: 380px;}
+.hrgmail_main_reply_outer{width: 100%; /* background: #f5f6f5; */border-top: 1px solid #eeeeee;}
+.hrgmail_main_reply_main_inner{width: 100%;background: #fff; margin: auto; padding: 16px;}
+.hrgmail_main_reply{width: 100%; position: static;}
+.hrgmail_click_here{width: 100%; min-height: 100px; border: 1px solid #d8d8d8; padding: 10px; color: #999; font-size: 12px;}
+
+.hrgmail_click_here span{color: #999; font-size: 12px; padding-right: 3px;}
+.hrgmail_click_here i{color: #999; font-size: 12px; display:inline-block;cursor: pointer; text-decoration: underline; margin-right: 3px; }
+
+.hrgmail_enviar_bttn span.delete_draft{background:url(https://static.horbito.com/app/522/gernalBlack.png) no-repeat; width:24px; height:24px; margin-top:7px; display:block; float:left; margin-right:10px; background-position: -1px -497px;}
+.hrgmail_enviar_bttn span.delete_draft:hover{ border-radius: 6px; border: 0px #e5e5e5 solid; background-color: #e5e5e5; }
+
+.hrgmail_enviar_bttn span.saving_text{ width:auto;  margin-top:11px; display:block; float:left; line-height:14px; font-size:12px;color:#000; margin-right:5px;}
+
+.hrgmail_reply_forward_btnType { display:block; width:60px; border-radius:6px; border:1px solid #e0e0e0; background-color:#f6f5f6 !important; position:relative; height:30px; cursor:pointer;  }
+.hrgmail_show_reply_forward{ overflow:hidden; background-color:#f5f5f5 !important; }
+.hrgmail_show_reply_forward span{ display:block; width:48%; float:left; height:30px; border-left:1px solid #dfdfdf;  }
+.hrgmail_show_reply_forward span:first-child{ border-left:0px none; }
+.hrgmail_show_reply_forward span i{ display:block; padding:1px 0px; width:100%; height:100%; position:relative; }
+ 
+ 
+.hrgmail_reply_forward_options_list{width:215px; background:#fff; padding:15px 0px; border-radius: 5px;  border: 1px solid #F6F5F6;   box-shadow: 0 20px 40px rgba(34, 31, 26, 0.3);  right: 12px;   position: absolute;   top: 45px;   z-index: 1;}
+.hrgmail_reply_forward_options_list ul li{  cursor: default; font-size: 13px;text-align: left; white-space: nowrap; color: #252525; padding: 5px 28px; font-family: 'latoregular';} 
+.hrgmail_reply_forward_options_list ul li:hover{background:#e3e3e3 ;}
+.hrgmail_reply_forward_options_list ul li:first-child{background:url(https://static.horbito.com/app/522/messageBack.png) no-repeat;background-position:left center;}
+.hrgmail_reply_forward_options_list ul li:nth-child(2){background:url(https://static.horbito.com/app/522/Replymessage.png) no-repeat;background-position:left center;}
+
+.hrgmail_fileName{width:100%; float: left; bottom: 0px;}
+/*.hrgmail_fileName{width:100%; position: absolute; float: left; bottom: 0px;}*/
+.hrgmail_fileName span{color:#0071f6; font-size:15px;font-family: 'latobold';cursor: pointer;}
+
+.hrgmail_fileName ul {padding:3px 6px;}
+.hrgmail_fileName ul li { padding: 4px 5px 4px 8px; /* background-color: #f5f5f5; border: 1px solid #dcdcdc;*/ margin: 0px 0px 3px;}
+.hrgmail_fileName_main label{color:#717171; font-size:15px;} 
+.hrgmail_fileName_main .remove-attachment{margin-top: 3px;background:url(https://static.horbito.com/app/522/hrgmail_icon_clos.png) no-repeat; width:10px; height:10px; display:block; float:right;cursor: pointer;}
+.errorMsg{color: #c00 !important;font-size: 13px !important;font-weight: bold;}
+iframe { overflow:hidden; }
+.hrgmail_threedot{ height: 12px; background-color: #f1f1f1; border: 1px solid #ddd; line-height: 6px; font-weight: bold;width: 22px;padding-left: 4px; cursor: pointer;}
+iframe{width: 1px;min-width: 100%;}
+.hrgmail_drag_drop{
+    font-size: 40px;
+    border: 4px dashed #9a9aa2;
+    margin: -235px 0px 0px 0px;
+    display: block;
+    color: #bababf;
+    width: 100%;
+    height: 235px;
+    text-align: center;
+    line-height: 210px;
+    opacity: 0.8;
+    background-color: #fff;
+    font-weight: 900;
+}
+
+.mce-panel, .mce-tinymce{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2), 
+only screen and (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
+only screen and (min-resolution: 2dppx),             /* The standard way */
+only screen and (min-resolution: 192dpi){
+	.hrgmail_allRead_drop_chckBox,
+        .hrgmail_allRead_drop_chckBox.hrgmail_check_input,
+        .hrgmail_allRead_reload,
+        .hrgmail_backAero,
+        .hrgmail_archive_icon,
+        .hrgmail_spam,
+        .hrgmail_delete_icon,
+        .hrgmail_moveinbox_icon i,
+        .hrgmail_labels i,
+        .hrgmail_showMails_prev,
+        .hrgmail_showMails_next,
+        .ho_gmail_mailDate a{
+		/* Reference the @2x Sprite */
+                background-image: url(https://static.horbito.com/app/522/sprite@2x.png);
+		/* Translate the @2x sprite's dimensions back to 1x */
+		background-size: 24px 900px; 
+	}
+        
+        .hrgmail_lftBr_addAccountsTtile a,
+        .remove-account{
+		/* Reference the @2x Sprite */
+                background-image: url(https://static.horbito.com/app/522/sprite-gmail@2x.png);
+		/* Translate the @2x sprite's dimensions back to 1x */
+		background-size: 69px 16px; 
+	}
+}
+.cke_toolbar_separator {
+    float: left;
+    background-color: #bcbcbc;
+    margin: 4px 2px 0 2px;
+    height: 18px;
+    width: 1px;
+}
+.cke_button_arrow {
+    display: inline-block;
+    margin: 8px 0 0 1px;
+    width: 0;
+    height: 0;
+    cursor: default;
+    vertical-align: top;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #484848;
+}
+.cke_combo_text {
+    line-height: 26px;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+    cursor: default;
+    color: #484848;
+    width: 50px;
+}
+.cke_combo_open {
+    cursor: default;
+    display: inline-block;
+    font-size: 0;
+    height: 19px;
+    line-height: 17px;
+    margin: 1px 5px 1px 0px;
+    width: 5px;
+}
+.cke_combo_arrow {
+    cursor: default;
+    margin: 11px 0 0;
+    float: left;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #484848;
+}
+.cke{
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important; 
+}
+
+/*! tinymce text editor */
+.mce-container,.mce-container *,.mce-widget,.mce-widget *,.mce-reset{margin:0;padding:0;border:0;outline:0;vertical-align:top;background:transparent;text-decoration:none;color:#333;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;text-shadow:none;float:none;position:static;width:auto;height:auto;white-space:nowrap;cursor:inherit;-webkit-tap-highlight-color:transparent;line-height:normal;font-weight:normal;text-align:left;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;direction:ltr;max-width:none}.mce-widget button{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.mce-container *[unselectable]{-moz-user-select:none;-webkit-user-select:none;-o-user-select:none;user-select:none}.word-wrap{word-wrap:break-word;-ms-word-break:break-all;word-break:break-all;word-break:break-word;-ms-hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;hyphens:auto}.mce-fade{opacity:0;-webkit-transition:opacity .15s linear;transition:opacity .15s linear}.mce-fade.mce-in{opacity:1}.mce-tinymce{visibility:inherit !important;position:relative}.mce-fullscreen{border:0;padding:0;margin:0;overflow:hidden;height:100%;z-index:100}div.mce-fullscreen{position:fixed;top:0;left:0;width:100%;height:auto}.mce-tinymce{display:block}.mce-wordcount{position:absolute;top:0;right:0;padding:8px}div.mce-edit-area{background:#FFF;filter:none}.mce-statusbar{position:relative}.mce-statusbar .mce-container-body{position:relative}.mce-fullscreen .mce-resizehandle{display:none}.mce-charmap{border-collapse:collapse}.mce-charmap td{cursor:default;border:1px solid rgba(0,0,0,0.2);width:20px;height:20px;line-height:20px;text-align:center;vertical-align:middle;padding:2px}.mce-charmap td div{text-align:center}.mce-charmap td:hover{background:#D9D9D9}.mce-grid td.mce-grid-cell div{border:1px solid #d6d6d6;width:15px;height:15px;margin:0;cursor:pointer}.mce-grid td.mce-grid-cell div:focus{border-color:#3498db}.mce-grid td.mce-grid-cell div[disabled]{cursor:not-allowed}.mce-grid{border-spacing:2px;border-collapse:separate}.mce-grid a{display:block;border:1px solid transparent}.mce-grid a:hover,.mce-grid a:focus{border-color:#3498db}.mce-grid-border{margin:0 4px 0 4px}.mce-grid-border a{border-color:#d6d6d6;width:13px;height:13px}.mce-grid-border a:hover,.mce-grid-border a.mce-active{border-color:#3498db;background:#3498db}.mce-text-center{text-align:center}div.mce-tinymce-inline{width:100%}.mce-colorbtn-trans div{text-align:center;vertical-align:middle;font-weight:bold;font-size:20px;line-height:16px;color:#707070}.mce-monospace{font-family:"Courier New",Courier,monospace}.mce-toolbar-grp{padding:2px 0}.mce-toolbar-grp .mce-flow-layout-item{margin-bottom:0}.mce-rtl .mce-wordcount{left:0;right:auto}.mce-container b{font-weight:bold}.mce-container p{margin-bottom:5px}.mce-container a{cursor:pointer;color:#2980b9}.mce-container a:hover{text-decoration:underline}.mce-container ul{margin-left:15px}.mce-container .mce-table-striped{border-collapse:collapse;margin:10px}.mce-container .mce-table-striped thead>tr{background-color:#fafafa}.mce-container .mce-table-striped thead>tr th{font-weight:bold}.mce-container .mce-table-striped td,.mce-container .mce-table-striped th{padding:5px}.mce-container .mce-table-striped tr:nth-child(even){background-color:#fafafa}.mce-container .mce-table-striped tbody>tr:hover{background-color:#e1e1e1}.mce-branding-powered-by{background-color:#f0f0f0;position:absolute;right:0;bottom:0;width:91px;height:9px;margin-right:-1px;margin-bottom:-1px;border:1px solid #c5c5c5;border-width:1px 1px 0 1px;padding:6px 6px 0 6px;background-image:url('data:image/gif;base64,R0lGODlhXwAJAIABAIiIiAAAACH5BAEKAAEALAAAAABfAAkAAAJxhBGpy+2PUnzqGNpmPNJqDIZSJY4m+KXLF3At2V6xPFfuvMF6J6fINTnhTr9XcaRC6pKvFYlZjDIszaXRSA3ijlXo9AlWindaldSJthJ55XAz6+ZWbVCOdojP77p8J8vlUSI4SHEnaEiYqOhARdhIWAAAOw');background-repeat:no-repeat;background-position:center center}.mce-croprect-container{position:absolute;top:0;left:0}.mce-croprect-handle{position:absolute;top:0;left:0;width:20px;height:20px;border:2px solid white}.mce-croprect-handle-nw{border-width:2px 0 0 2px;margin:-2px 0 0 -2px;cursor:nw-resize;top:100px;left:100px}.mce-croprect-handle-ne{border-width:2px 2px 0 0;margin:-2px 0 0 -20px;cursor:ne-resize;top:100px;left:200px}.mce-croprect-handle-sw{border-width:0 0 2px 2px;margin:-20px 2px 0 -2px;cursor:sw-resize;top:200px;left:100px}.mce-croprect-handle-se{border-width:0 2px 2px 0;margin:-20px 0 0 -20px;cursor:se-resize;top:200px;left:200px}.mce-croprect-handle-move{position:absolute;cursor:move;border:0}.mce-croprect-block{opacity:.3;filter:alpha(opacity=30);zoom:1;position:absolute;background:black}.mce-croprect-handle:focus{border-color:#3498db}.mce-croprect-handle-move:focus{outline:1px solid #3498db}.mce-imagepanel{overflow:auto;background:black}.mce-imagepanel-bg{position:absolute;background:url('data:image/gif;base64,R0lGODdhDAAMAIABAMzMzP///ywAAAAADAAMAAACFoQfqYeabNyDMkBQb81Uat85nxguUAEAOw==')}.mce-imagepanel img{position:absolute}.mce-imagetool.mce-btn .mce-ico{display:block;width:20px;height:20px;text-align:center;line-height:20px;font-size:20px;padding:5px}.mce-arrow-up{margin-top:12px}.mce-arrow-down{margin-top:-12px}.mce-arrow:before,.mce-arrow:after{position:absolute;left:50%;display:block;width:0;height:0;border-style:solid;border-color:transparent;content:""}.mce-arrow.mce-arrow-up:before{top:-9px;border-bottom-color:rgba(0,0,0,0.2);border-width:0 9px 9px;margin-left:-9px}.mce-arrow.mce-arrow-down:before{bottom:-9px;border-top-color:rgba(0,0,0,0.2);border-width:9px 9px 0;margin-left:-9px}.mce-arrow.mce-arrow-up:after{top:-8px;border-bottom-color:#f0f0f0;border-width:0 8px 8px;margin-left:-8px}.mce-arrow.mce-arrow-down:after{bottom:-8px;border-top-color:#f0f0f0;border-width:8px 8px 0;margin-left:-8px}.mce-arrow.mce-arrow-left:before,.mce-arrow.mce-arrow-left:after{margin:0}.mce-arrow.mce-arrow-left:before{left:8px}.mce-arrow.mce-arrow-left:after{left:9px}.mce-arrow.mce-arrow-right:before,.mce-arrow.mce-arrow-right:after{left:auto;margin:0}.mce-arrow.mce-arrow-right:before{right:8px}.mce-arrow.mce-arrow-right:after{right:9px}.mce-arrow.mce-arrow-center.mce-arrow.mce-arrow-left:before{left:-9px;top:50%;border-right-color:rgba(0,0,0,0.2);border-width:9px 9px 9px 0;margin-top:-9px}.mce-arrow.mce-arrow-center.mce-arrow.mce-arrow-left:after{left:-8px;top:50%;border-right-color:#f0f0f0;border-width:8px 8px 8px 0;margin-top:-8px}.mce-arrow.mce-arrow-center.mce-arrow.mce-arrow-left{margin-left:12px}.mce-arrow.mce-arrow-center.mce-arrow.mce-arrow-right:before{right:-9px;top:50%;border-left-color:rgba(0,0,0,0.2);border-width:9px 0 9px 9px;margin-top:-9px}.mce-arrow.mce-arrow-center.mce-arrow.mce-arrow-right:after{right:-8px;top:50%;border-left-color:#f0f0f0;border-width:8px 0 8px 8px;margin-top:-8px}.mce-arrow.mce-arrow-center.mce-arrow.mce-arrow-right{margin-left:-14px}.mce-edit-aria-container>.mce-container-body{display:flex}.mce-edit-aria-container>.mce-container-body .mce-edit-area{flex:1}.mce-edit-aria-container>.mce-container-body .mce-sidebar>.mce-container-body{display:flex;align-items:stretch;height:100%}.mce-edit-aria-container>.mce-container-body .mce-sidebar-panel{min-width:250px;max-width:250px;position:relative}.mce-edit-aria-container>.mce-container-body .mce-sidebar-panel>.mce-container-body{position:absolute;width:100%;height:100%;overflow:auto;top:0;left:0}.mce-sidebar-toolbar{border:0 solid rgba(0,0,0,0.2);border-left-width:1px}.mce-sidebar-toolbar .mce-btn.mce-active,.mce-sidebar-toolbar .mce-btn.mce-active:hover{border:1px solid transparent;border-color:transparent;background-color:#2d8ac7}.mce-sidebar-toolbar .mce-btn.mce-active button,.mce-sidebar-toolbar .mce-btn.mce-active:hover button,.mce-sidebar-toolbar .mce-btn.mce-active button i,.mce-sidebar-toolbar .mce-btn.mce-active:hover button i{color:#fff;text-shadow:1px 1px none}.mce-sidebar-panel{border:0 solid rgba(0,0,0,0.2);border-left-width:1px}.mce-container,.mce-container-body{display:block}.mce-autoscroll{overflow:hidden}.mce-scrollbar{position:absolute;width:7px;height:100%;top:2px;right:2px;opacity:.4;filter:alpha(opacity=40);zoom:1}.mce-scrollbar-h{top:auto;right:auto;left:2px;bottom:2px;width:100%;height:7px}.mce-scrollbar-thumb{position:absolute;background-color:#000;border:1px solid #888;border-color:rgba(85,85,85,0.6);width:5px;height:100%}.mce-scrollbar-h .mce-scrollbar-thumb{width:100%;height:5px}.mce-scrollbar:hover,.mce-scrollbar.mce-active{background-color:#AAA;opacity:.6;filter:alpha(opacity=60);zoom:1}.mce-scroll{position:relative}.mce-panel{border:0 solid #cacaca;border:0 solid rgba(0,0,0,0.2);background-color:#f0f0f0}.mce-floatpanel{position:absolute}.mce-floatpanel.mce-fixed{position:fixed}.mce-floatpanel .mce-arrow,.mce-floatpanel .mce-arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.mce-floatpanel .mce-arrow{border-width:11px}.mce-floatpanel .mce-arrow:after{border-width:10px;content:""}.mce-floatpanel.mce-popover{filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);background:transparent;top:0;left:0;background:#FFF;border:1px solid rgba(0,0,0,0.2);border:1px solid rgba(0,0,0,0.25)}.mce-floatpanel.mce-popover.mce-bottom{margin-top:10px;*margin-top:0}.mce-floatpanel.mce-popover.mce-bottom>.mce-arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:rgba(0,0,0,0.2);border-bottom-color:rgba(0,0,0,0.25);top:-11px}.mce-floatpanel.mce-popover.mce-bottom>.mce-arrow:after{top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#FFF}.mce-floatpanel.mce-popover.mce-bottom.mce-start{margin-left:-22px}.mce-floatpanel.mce-popover.mce-bottom.mce-start>.mce-arrow{left:20px}.mce-floatpanel.mce-popover.mce-bottom.mce-end{margin-left:22px}.mce-floatpanel.mce-popover.mce-bottom.mce-end>.mce-arrow{right:10px;left:auto}.mce-fullscreen{border:0;padding:0;margin:0;overflow:hidden;height:100%}div.mce-fullscreen{position:fixed;top:0;left:0}#mce-modal-block{opacity:0;filter:alpha(opacity=0);zoom:1;position:fixed;left:0;top:0;width:100%;height:100%;background:#000}#mce-modal-block.mce-in{opacity:.3;filter:alpha(opacity=30);zoom:1}.mce-window-move{cursor:move}.mce-window{filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);background:transparent;background:#FFF;position:fixed;top:0;left:0;opacity:0;transform:scale(.1);transition:transform 100ms ease-in,opacity 150ms ease-in}.mce-window.mce-in{transform:scale(1);opacity:1}.mce-window-head{padding:9px 15px;border-bottom:1px solid #c5c5c5;position:relative}.mce-window-head .mce-close{position:absolute;right:0;top:0;height:38px;width:38px;text-align:center;cursor:pointer}.mce-window-head .mce-close i{color:#858585}.mce-close:hover i{color:#adadad}.mce-window-head .mce-title{line-height:20px;font-size:20px;font-weight:bold;text-rendering:optimizelegibility;padding-right:20px}.mce-window .mce-container-body{display:block}.mce-foot{display:block;background-color:#FFF;border-top:1px solid #c5c5c5}.mce-window-head .mce-dragh{position:absolute;top:0;left:0;cursor:move;width:90%;height:100%}.mce-window iframe{width:100%;height:100%}.mce-window-body .mce-listbox{border-color:#ccc}.mce-rtl .mce-window-head .mce-close{position:absolute;right:auto;left:15px}.mce-rtl .mce-window-head .mce-dragh{left:auto;right:0}.mce-rtl .mce-window-head .mce-title{direction:rtl;text-align:right}.mce-tooltip{position:absolute;padding:5px;opacity:.8;filter:alpha(opacity=80);zoom:1}.mce-tooltip-inner{font-size:11px;background-color:#000;color:white;max-width:200px;padding:5px 8px 4px 8px;text-align:center;white-space:normal}.mce-tooltip-arrow{position:absolute;width:0;height:0;line-height:0;border:5px dashed #000}.mce-tooltip-arrow-n{border-bottom-color:#000}.mce-tooltip-arrow-s{border-top-color:#000}.mce-tooltip-arrow-e{border-left-color:#000}.mce-tooltip-arrow-w{border-right-color:#000}.mce-tooltip-nw,.mce-tooltip-sw{margin-left:-14px}.mce-tooltip-ne,.mce-tooltip-se{margin-left:14px}.mce-tooltip-n .mce-tooltip-arrow{top:0;left:50%;margin-left:-5px;border-bottom-style:solid;border-top:none;border-left-color:transparent;border-right-color:transparent}.mce-tooltip-nw .mce-tooltip-arrow{top:0;left:10px;border-bottom-style:solid;border-top:none;border-left-color:transparent;border-right-color:transparent}.mce-tooltip-ne .mce-tooltip-arrow{top:0;right:10px;border-bottom-style:solid;border-top:none;border-left-color:transparent;border-right-color:transparent}.mce-tooltip-s .mce-tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-top-style:solid;border-bottom:none;border-left-color:transparent;border-right-color:transparent}.mce-tooltip-sw .mce-tooltip-arrow{bottom:0;left:10px;border-top-style:solid;border-bottom:none;border-left-color:transparent;border-right-color:transparent}.mce-tooltip-se .mce-tooltip-arrow{bottom:0;right:10px;border-top-style:solid;border-bottom:none;border-left-color:transparent;border-right-color:transparent}.mce-tooltip-e .mce-tooltip-arrow{right:0;top:50%;margin-top:-5px;border-left-style:solid;border-right:none;border-top-color:transparent;border-bottom-color:transparent}.mce-tooltip-w .mce-tooltip-arrow{left:0;top:50%;margin-top:-5px;border-right-style:solid;border-left:none;border-top-color:transparent;border-bottom-color:transparent}.mce-progress{display:inline-block;position:relative;height:20px}.mce-progress .mce-bar-container{display:inline-block;width:100px;height:100%;margin-right:8px;border:1px solid #ccc;overflow:hidden}.mce-progress .mce-text{display:inline-block;margin-top:auto;margin-bottom:auto;font-size:14px;width:40px;color:#333}.mce-bar{display:block;width:0;height:100%;background-color:#d7d7d7;-webkit-transition:width .2s ease;transition:width .2s ease}.mce-notification{position:absolute;background-color:#F0F0F0;padding:5px;margin-top:5px;border-width:1px;border-style:solid;border-color:#CCCCCC;transition:transform 100ms ease-in,opacity 150ms ease-in;opacity:0;box-sizing:border-box}.mce-notification.mce-in{opacity:1}.mce-notification-success{background-color:#dff0d8;border-color:#d6e9c6}.mce-notification-info{background-color:#d9edf7;border-color:#779ECB}.mce-notification-warning{background-color:#fcf8e3;border-color:#faebcc}.mce-notification-error{background-color:#f2dede;border-color:#ebccd1}.mce-notification.mce-has-close{padding-right:15px}.mce-notification .mce-ico{margin-top:5px}.mce-notification-inner{word-wrap:break-word;-ms-word-break:break-all;word-break:break-all;word-break:break-word;-ms-hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;hyphens:auto;display:inline-block;font-size:14px;margin:5px 8px 4px 8px;text-align:center;white-space:normal;color:#31708f}.mce-notification-inner a{text-decoration:underline;cursor:pointer}.mce-notification .mce-progress{margin-right:8px}.mce-notification .mce-progress .mce-text{margin-top:5px}.mce-notification *,.mce-notification .mce-progress .mce-text{color:#333333}.mce-notification .mce-progress .mce-bar-container{border-color:#CCCCCC}.mce-notification .mce-progress .mce-bar-container .mce-bar{background-color:#333333}.mce-notification-success *,.mce-notification-success .mce-progress .mce-text{color:#3c763d}.mce-notification-success .mce-progress .mce-bar-container{border-color:#d6e9c6}.mce-notification-success .mce-progress .mce-bar-container .mce-bar{background-color:#3c763d}.mce-notification-info *,.mce-notification-info .mce-progress .mce-text{color:#31708f}.mce-notification-info .mce-progress .mce-bar-container{border-color:#779ECB}.mce-notification-info .mce-progress .mce-bar-container .mce-bar{background-color:#31708f}.mce-notification-warning *,.mce-notification-warning .mce-progress .mce-text{color:#8a6d3b}.mce-notification-warning .mce-progress .mce-bar-container{border-color:#faebcc}.mce-notification-warning .mce-progress .mce-bar-container .mce-bar{background-color:#8a6d3b}.mce-notification-error *,.mce-notification-error .mce-progress .mce-text{color:#a94442}.mce-notification-error .mce-progress .mce-bar-container{border-color:#ebccd1}.mce-notification-error .mce-progress .mce-bar-container .mce-bar{background-color:#a94442}.mce-notification .mce-close{position:absolute;top:6px;right:8px;font-size:20px;font-weight:bold;line-height:20px;color:#858585;cursor:pointer;height:20px;overflow:hidden}.mce-abs-layout{position:relative}body .mce-abs-layout-item,.mce-abs-end{position:absolute}.mce-abs-end{width:1px;height:1px}.mce-container-body.mce-abs-layout{overflow:hidden}.mce-btn{border:1px solid #b1b1b1;border-color:transparent transparent transparent transparent;position:relative;text-shadow:0 1px 1px rgba(255,255,255,0.75);display:inline-block;*display:inline;*zoom:1;background-color:#f0f0f0}.mce-btn:hover,.mce-btn:focus{color:#333;background-color:#e3e3e3;border-color:#ccc}.mce-btn.mce-disabled button,.mce-btn.mce-disabled:hover button{cursor:default;opacity:.4;filter:alpha(opacity=40);zoom:1}.mce-btn.mce-active,.mce-btn.mce-active:hover{background-color:#dbdbdb;border-color:#ccc}.mce-btn:active{background-color:#e0e0e0;border-color:#ccc}.mce-btn button{padding:4px 8px;font-size:14px;line-height:20px;*line-height:16px;cursor:pointer;color:#333;text-align:center;overflow:visible;-webkit-appearance:none}.mce-btn button::-moz-focus-inner{border:0;padding:0}.mce-btn i{text-shadow:1px 1px none}.mce-primary.mce-btn-has-text{min-width:50px}.mce-primary{color:#fff;border:1px solid transparent;border-color:transparent;background-color:#2d8ac7}.mce-primary:hover,.mce-primary:focus{background-color:#257cb6;border-color:transparent}.mce-primary.mce-disabled button,.mce-primary.mce-disabled:hover button{cursor:default;opacity:.4;filter:alpha(opacity=40);zoom:1}.mce-primary.mce-active,.mce-primary.mce-active:hover,.mce-primary:not(.mce-disabled):active{background-color:#206ea1}.mce-primary button,.mce-primary button i{color:#fff;text-shadow:1px 1px none}.mce-btn .mce-txt{font-size:inherit;line-height:inherit;color:inherit}.mce-btn-large button{padding:9px 14px;font-size:16px;line-height:normal}.mce-btn-large i{margin-top:2px}.mce-btn-small button{padding:1px 5px;font-size:12px;*padding-bottom:2px}.mce-btn-small i{line-height:20px;vertical-align:top;*line-height:18px}.mce-btn .mce-caret{margin-top:8px;margin-left:0}.mce-btn-small .mce-caret{margin-top:8px;margin-left:0}.mce-caret{display:inline-block;*display:inline;*zoom:1;width:0;height:0;vertical-align:top;border-top:4px solid #333;border-right:4px solid transparent;border-left:4px solid transparent;content:""}.mce-disabled .mce-caret{border-top-color:#aaa}.mce-caret.mce-up{border-bottom:4px solid #333;border-top:0}.mce-btn-flat{border:0;background:transparent;filter:none}.mce-btn-flat:hover,.mce-btn-flat.mce-active,.mce-btn-flat:focus,.mce-btn-flat:active{border:0;background:#e6e6e6;filter:none}.mce-btn-has-text .mce-ico{padding-right:5px}.mce-rtl .mce-btn button{direction:rtl}.mce-btn-group .mce-btn{border-width:1px;margin:0;margin-left:2px}.mce-btn-group:not(:first-child){border-left:1px solid #d9d9d9;padding-left:3px;margin-left:3px}.mce-btn-group .mce-first{margin-left:0}.mce-btn-group .mce-btn.mce-flow-layout-item{margin:0}.mce-rtl .mce-btn-group .mce-btn{margin-left:0;margin-right:2px}.mce-rtl .mce-btn-group .mce-first{margin-right:0}.mce-rtl .mce-btn-group:not(:first-child){border-left:none;border-right:1px solid #d9d9d9;padding-right:4px;margin-right:4px}.mce-checkbox{cursor:pointer}i.mce-i-checkbox{margin:0 3px 0 0;border:1px solid #c5c5c5;background-color:#f0f0f0;text-indent:-10em;*font-size:0;*line-height:0;*text-indent:0;overflow:hidden}.mce-checked i.mce-i-checkbox{color:#333;font-size:16px;line-height:16px;text-indent:0}.mce-checkbox:focus i.mce-i-checkbox,.mce-checkbox.mce-focus i.mce-i-checkbox{border:1px solid rgba(82,168,236,0.8)}.mce-checkbox.mce-disabled .mce-label,.mce-checkbox.mce-disabled i.mce-i-checkbox{color:#acacac}.mce-checkbox .mce-label{vertical-align:middle}.mce-rtl .mce-checkbox{direction:rtl;text-align:right}.mce-rtl i.mce-i-checkbox{margin:0 0 0 3px}.mce-combobox{position:relative;display:inline-block;*display:inline;*zoom:1;*height:32px}.mce-combobox input{border:1px solid #c5c5c5;border-right-color:#c5c5c5;height:28px}.mce-combobox.mce-disabled input{color:#adadad}.mce-combobox .mce-btn{border:1px solid #c5c5c5;border-left:0;margin:0}.mce-combobox button{padding-right:8px;padding-left:8px}.mce-combobox.mce-disabled .mce-btn button{cursor:default;opacity:.4;filter:alpha(opacity=40);zoom:1}.mce-combobox .mce-status{position:absolute;right:2px;top:50%;line-height:16px;margin-top:-8px;font-size:12px;width:15px;height:15px;text-align:center;cursor:pointer}.mce-combobox.mce-has-status input{padding-right:20px}.mce-combobox.mce-has-open .mce-status{right:37px}.mce-combobox .mce-status.mce-i-warning{color:#c09853}.mce-combobox .mce-status.mce-i-checkmark{color:#468847}.mce-menu.mce-combobox-menu{border-top:0;margin-top:0;max-height:200px}.mce-menu.mce-combobox-menu .mce-menu-item{padding:4px 6px 4px 4px;font-size:11px}.mce-menu.mce-combobox-menu .mce-menu-item-sep{padding:0}.mce-menu.mce-combobox-menu .mce-text{font-size:11px}.mce-menu.mce-combobox-menu .mce-menu-item-link,.mce-menu.mce-combobox-menu .mce-menu-item-link b{font-size:11px}.mce-menu.mce-combobox-menu .mce-text b{font-size:11px}.mce-colorbox i{border:1px solid #c5c5c5;width:14px;height:14px}.mce-colorbutton .mce-ico{position:relative}.mce-colorbutton-grid{margin:4px}.mce-colorbutton button{padding-right:6px;padding-left:6px}.mce-colorbutton .mce-preview{padding-right:3px;display:block;position:absolute;left:50%;top:50%;margin-left:-17px;margin-top:7px;background:gray;width:13px;height:2px;overflow:hidden}.mce-colorbutton.mce-btn-small .mce-preview{margin-left:-16px;padding-right:0;width:16px}.mce-colorbutton .mce-open{padding-left:4px;padding-right:4px;border-left:1px solid transparent}.mce-colorbutton:hover .mce-open{border-color:#ccc}.mce-colorbutton.mce-btn-small .mce-open{padding:0 3px 0 3px}.mce-rtl .mce-colorbutton{direction:rtl}.mce-rtl .mce-colorbutton .mce-preview{margin-left:0;padding-right:0;padding-left:3px}.mce-rtl .mce-colorbutton.mce-btn-small .mce-preview{margin-left:0;padding-right:0;padding-left:2px}.mce-rtl .mce-colorbutton .mce-open{padding-left:4px;padding-right:4px;border-left:0}.mce-colorpicker{position:relative;width:250px;height:220px}.mce-colorpicker-sv{position:absolute;top:0;left:0;width:90%;height:100%;border:1px solid #c5c5c5;cursor:crosshair;overflow:hidden}.mce-colorpicker-h-chunk{width:100%}.mce-colorpicker-overlay1,.mce-colorpicker-overlay2{width:100%;height:100%;position:absolute;top:0;left:0}.mce-colorpicker-overlay1{filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#ffffff', endColorstr='#00ffffff');-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#ffffff', endColorstr='#00ffffff')";background:linear-gradient(to right, #fff, rgba(255,255,255,0))}.mce-colorpicker-overlay2{filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#00000000', endColorstr='#000000');-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#00000000', endColorstr='#000000')";background:linear-gradient(to bottom, rgba(0,0,0,0), #000)}.mce-colorpicker-selector1{background:none;position:absolute;width:12px;height:12px;margin:-8px 0 0 -8px;border:1px solid black;border-radius:50%}.mce-colorpicker-selector2{position:absolute;width:10px;height:10px;border:1px solid white;border-radius:50%}.mce-colorpicker-h{position:absolute;top:0;right:0;width:6.5%;height:100%;border:1px solid #c5c5c5;cursor:crosshair}.mce-colorpicker-h-marker{margin-top:-4px;position:absolute;top:0;left:-1px;width:100%;border:1px solid #333;background:#fff;height:4px;z-index:100}.mce-path{display:inline-block;*display:inline;*zoom:1;padding:8px;white-space:normal}.mce-path .mce-txt{display:inline-block;padding-right:3px}.mce-path .mce-path-body{display:inline-block}.mce-path-item{display:inline-block;*display:inline;*zoom:1;cursor:pointer;color:#333}.mce-path-item:hover{text-decoration:underline}.mce-path-item:focus{background:#666;color:#fff}.mce-path .mce-divider{display:inline}.mce-disabled .mce-path-item{color:#aaa}.mce-rtl .mce-path{direction:rtl}.mce-fieldset{border:0 solid #9E9E9E}.mce-fieldset>.mce-container-body{margin-top:-15px}.mce-fieldset-title{margin-left:5px;padding:0 5px 0 5px}.mce-fit-layout{display:inline-block;*display:inline;*zoom:1}.mce-fit-layout-item{position:absolute}.mce-flow-layout-item{display:inline-block;*display:inline;*zoom:1}.mce-flow-layout-item{margin:2px 0 2px 2px}.mce-flow-layout-item.mce-last{margin-right:2px}.mce-flow-layout{white-space:normal}.mce-tinymce-inline .mce-flow-layout{white-space:nowrap}.mce-rtl .mce-flow-layout{text-align:right;direction:rtl}.mce-rtl .mce-flow-layout-item{margin:2px 2px 2px 0}.mce-rtl .mce-flow-layout-item.mce-last{margin-left:2px}.mce-iframe{border:0 solid rgba(0,0,0,0.2);width:100%;height:100%}.mce-infobox{display:inline-block;*display:inline;*zoom:1;text-shadow:0 1px 1px rgba(255,255,255,0.75);overflow:hidden;border:1px solid red}.mce-infobox div{display:block;margin:5px}.mce-infobox div button{position:absolute;top:50%;right:4px;cursor:pointer;margin-top:-8px;display:none}.mce-infobox div button:focus{outline:2px solid #ccc}.mce-infobox.mce-has-help div{margin-right:25px}.mce-infobox.mce-has-help button{display:block}.mce-infobox.mce-success{background:#dff0d8;border-color:#d6e9c6}.mce-infobox.mce-success div{color:#3c763d}.mce-infobox.mce-warning{background:#fcf8e3;border-color:#faebcc}.mce-infobox.mce-warning div{color:#8a6d3b}.mce-infobox.mce-error{background:#f2dede;border-color:#ebccd1}.mce-infobox.mce-error div{color:#a94442}.mce-rtl .mce-infobox div{text-align:right;direction:rtl}.mce-label{display:inline-block;*display:inline;*zoom:1;text-shadow:0 1px 1px rgba(255,255,255,0.75);overflow:hidden}.mce-label.mce-autoscroll{overflow:auto}.mce-label.mce-disabled{color:#aaa}.mce-label.mce-multiline{white-space:pre-wrap}.mce-label.mce-success{color:#468847}.mce-label.mce-warning{color:#c09853}.mce-label.mce-error{color:#b94a48}.mce-rtl .mce-label{text-align:right;direction:rtl}.mce-menubar .mce-menubtn{border-color:transparent;background:transparent;filter:none}.mce-menubar .mce-menubtn button{color:#333}.mce-menubar{border:1px solid rgba(217,217,217,0.52)}.mce-menubar .mce-menubtn button span{color:#333}.mce-menubar .mce-caret{border-top-color:#333}.mce-menubar .mce-menubtn:hover,.mce-menubar .mce-menubtn.mce-active,.mce-menubar .mce-menubtn:focus{border-color:#ccc;background:#fff;filter:none}.mce-menubtn button{color:#333}.mce-menubtn.mce-btn-small span{font-size:12px}.mce-menubtn.mce-fixed-width span{display:inline-block;overflow-x:hidden;text-overflow:ellipsis;width:90px}.mce-menubtn.mce-fixed-width.mce-btn-small span{width:70px}.mce-menubtn .mce-caret{*margin-top:6px}.mce-rtl .mce-menubtn button{direction:rtl;text-align:right}.mce-menu-item{display:block;padding:6px 15px 6px 12px;clear:both;font-weight:normal;line-height:20px;color:#333;white-space:nowrap;cursor:pointer;line-height:normal;border-left:4px solid transparent;margin-bottom:1px}.mce-menu-item .mce-ico,.mce-menu-item .mce-text{color:#333}.mce-menu-item.mce-disabled .mce-text,.mce-menu-item.mce-disabled .mce-ico{color:#adadad}.mce-menu-item:hover .mce-text,.mce-menu-item.mce-selected .mce-text,.mce-menu-item:focus .mce-text{color:white}.mce-menu-item:hover .mce-ico,.mce-menu-item.mce-selected .mce-ico,.mce-menu-item:focus .mce-ico{color:white}.mce-menu-item.mce-disabled:hover{background:#CCC}.mce-menu-shortcut{display:inline-block;color:#adadad}.mce-menu-shortcut{display:inline-block;*display:inline;*zoom:1;padding:0 15px 0 20px}.mce-menu-item:hover .mce-menu-shortcut,.mce-menu-item.mce-selected .mce-menu-shortcut,.mce-menu-item:focus .mce-menu-shortcut{color:white}.mce-menu-item .mce-caret{margin-top:4px;*margin-top:3px;margin-right:6px;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:4px solid #333}.mce-menu-item.mce-selected .mce-caret,.mce-menu-item:focus .mce-caret,.mce-menu-item:hover .mce-caret{border-left-color:white}.mce-menu-align .mce-menu-shortcut{*margin-top:-2px}.mce-menu-align .mce-menu-shortcut,.mce-menu-align .mce-caret{position:absolute;right:0}.mce-menu-item.mce-active i{visibility:visible}.mce-menu-item-normal.mce-active{background-color:#3498db}.mce-menu-item-preview.mce-active{border-left:5px solid #aaa}.mce-menu-item-normal.mce-active .mce-text{color:white}.mce-menu-item-normal.mce-active:hover .mce-text,.mce-menu-item-normal.mce-active:hover .mce-ico{color:white}.mce-menu-item-normal.mce-active:focus .mce-text,.mce-menu-item-normal.mce-active:focus .mce-ico{color:white}.mce-menu-item:hover,.mce-menu-item.mce-selected,.mce-menu-item:focus{text-decoration:none;color:white;background-color:#2d8ac7}.mce-menu-item-link{color:#093;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.mce-menu-item-link b{color:#093}.mce-menu-item-ellipsis{display:block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.mce-menu-item:hover *,.mce-menu-item.mce-selected *,.mce-menu-item:focus *{color:white}div.mce-menu .mce-menu-item-sep,.mce-menu-item-sep:hover{border:0;padding:0;height:1px;margin:9px 1px;overflow:hidden;background:transparent;border-bottom:1px solid rgba(0,0,0,0.1);cursor:default;filter:none}div.mce-menu .mce-menu-item b{font-weight:bold}.mce-menu-item-indent-1{padding-left:20px}.mce-menu-item-indent-2{padding-left:35px}.mce-menu-item-indent-2{padding-left:35px}.mce-menu-item-indent-3{padding-left:40px}.mce-menu-item-indent-4{padding-left:45px}.mce-menu-item-indent-5{padding-left:50px}.mce-menu-item-indent-6{padding-left:55px}.mce-menu.mce-rtl{direction:rtl}.mce-rtl .mce-menu-item{text-align:right;direction:rtl;padding:6px 12px 6px 15px}.mce-menu-align.mce-rtl .mce-menu-shortcut,.mce-menu-align.mce-rtl .mce-caret{right:auto;left:0}.mce-rtl .mce-menu-item .mce-caret{margin-left:6px;margin-right:0;border-right:4px solid #333;border-left:0}.mce-rtl .mce-menu-item.mce-selected .mce-caret,.mce-rtl .mce-menu-item:focus .mce-caret,.mce-rtl .mce-menu-item:hover .mce-caret{border-left-color:transparent;border-right-color:white}.mce-throbber{position:absolute;top:0;left:0;width:100%;height:100%;opacity:.6;filter:alpha(opacity=60);zoom:1;background:#fff url('img/loader.gif') no-repeat center center}.mce-throbber-inline{position:static;height:50px}.mce-menu .mce-throbber-inline{height:25px;background-size:contain}.mce-menu{position:absolute;left:0;top:0;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);background:transparent;z-index:1000;padding:5px 0 5px 0;margin:-1px 0 0;min-width:160px;background:#fff;border:1px solid #989898;border:1px solid rgba(0,0,0,0.2);z-index:1002;max-height:400px;overflow:auto;overflow-x:hidden}.mce-menu i{display:none}.mce-menu-has-icons i{display:inline-block;*display:inline}.mce-menu-sub-tr-tl{margin:-6px 0 0 -1px}.mce-menu-sub-br-bl{margin:6px 0 0 -1px}.mce-menu-sub-tl-tr{margin:-6px 0 0 1px}.mce-menu-sub-bl-br{margin:6px 0 0 1px}.mce-listbox button{text-align:left;padding-right:20px;position:relative}.mce-listbox .mce-caret{position:absolute;margin-top:-2px;right:8px;top:50%}.mce-rtl .mce-listbox .mce-caret{right:auto;left:8px}.mce-rtl .mce-listbox button{padding-right:10px;padding-left:20px}.mce-container-body .mce-resizehandle{position:absolute;right:0;bottom:0;width:16px;height:16px;visibility:visible;cursor:s-resize;margin:0}.mce-container-body .mce-resizehandle-both{cursor:se-resize}i.mce-i-resize{color:#333}.mce-selectbox{background:#fff;border:1px solid #c5c5c5}.mce-slider{border:1px solid #AAA;background:#EEE;width:100px;height:10px;position:relative;display:block}.mce-slider.mce-vertical{width:10px;height:100px}.mce-slider-handle{border:1px solid #BBB;background:#DDD;display:block;width:13px;height:13px;position:absolute;top:0;left:0;margin-left:-1px;margin-top:-2px}.mce-slider-handle:focus{background:#BBB}.mce-spacer{visibility:hidden}.mce-splitbtn .mce-open{border-left:1px solid transparent}.mce-splitbtn:hover .mce-open{border-left-color:#ccc}.mce-splitbtn button{padding-right:6px;padding-left:6px}.mce-splitbtn .mce-open{padding-right:4px;padding-left:4px}.mce-splitbtn .mce-open.mce-active{background-color:#dbdbdb;outline:1px solid #ccc}.mce-splitbtn.mce-btn-small .mce-open{padding:0 3px 0 3px}.mce-rtl .mce-splitbtn{direction:rtl;text-align:right}.mce-rtl .mce-splitbtn button{padding-right:4px;padding-left:4px}.mce-rtl .mce-splitbtn .mce-open{border-left:0}.mce-stack-layout-item{display:block}.mce-tabs{display:block;border-bottom:1px solid #c5c5c5}.mce-tabs,.mce-tabs+.mce-container-body{background:#FFF}.mce-tab{display:inline-block;*display:inline;*zoom:1;border:1px solid #c5c5c5;border-width:0 1px 0 0;background:#ffffff;padding:8px;text-shadow:0 1px 1px rgba(255,255,255,0.75);height:13px;cursor:pointer}.mce-tab:hover{background:#FDFDFD}.mce-tab.mce-active{background:#FDFDFD;border-bottom-color:transparent;margin-bottom:-1px;height:14px}.mce-rtl .mce-tabs{text-align:right;direction:rtl}.mce-rtl .mce-tab{border-width:0 0 0 1px}.mce-textbox{background:#fff;border:1px solid #c5c5c5;display:inline-block;-webkit-transition:border linear .2s, box-shadow linear .2s;transition:border linear .2s, box-shadow linear .2s;height:28px;resize:none;padding:0 4px 0 4px;white-space:pre-wrap;*white-space:pre;color:#333}.mce-textbox:focus,.mce-textbox.mce-focus{border-color:#3498db}.mce-placeholder .mce-textbox{color:#aaa}.mce-textbox.mce-multiline{padding:4px;height:auto}.mce-textbox.mce-disabled{color:#adadad}.mce-rtl .mce-textbox{text-align:right;direction:rtl}.mce-dropzone{border:3px dashed gray;text-align:center}.mce-dropzone span{color:gray;text-transform:uppercase;font-family:Verdana;display:inline-block;vertical-align:middle}.mce-dropzone:after{content:"";height:100%;display:inline-block;vertical-align:middle}.mce-dropzone.mce-disabled{opacity:.4;filter:alpha(opacity=40);zoom:1}.mce-dropzone.mce-disabled.mce-dragenter{cursor:not-allowed}.mce-browsebutton{position:relative;overflow:hidden}.mce-browsebutton button{position:relative;z-index:1}.mce-browsebutton input{opacity:0;filter:alpha(opacity=0);zoom:1;position:absolute;top:0;left:0;width:100%;height:100%;z-index:0}@font-face{font-family:'tinymce';src:url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce.eot');src:url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce.eot?#iefix') format('embedded-opentype'),url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce.woff') format('woff'),url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce.ttf') format('truetype'),url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce.svg#tinymce') format('svg');font-weight:normal;font-style:normal}@font-face{font-family:'tinymce-small';src:url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce-small.eot');src:url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce-small.eot?#iefix') format('embedded-opentype'),url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce-small.woff') format('woff'),url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce-small.ttf') format('truetype'),url('https://cloud.tinymce.com/stable/skins/lightgray/fonts/tinymce-small.svg#tinymce') format('svg');font-weight:normal;font-style:normal}.mce-ico{font-family:'tinymce',Arial;font-style:normal;font-weight:normal;font-variant:normal;font-size:16px;line-height:16px;speak:none;vertical-align:text-top;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block;background:transparent center center;background-size:cover;width:16px;height:16px;color:#333}.mce-btn-small .mce-ico{font-family:'tinymce-small',Arial}.mce-i-save:before{content:"\e000"}.mce-i-newdocument:before{content:"\e001"}.mce-i-fullpage:before{content:"\e002"}.mce-i-alignleft:before{content:"\e003"}.mce-i-aligncenter:before{content:"\e004"}.mce-i-alignright:before{content:"\e005"}.mce-i-alignjustify:before{content:"\e006"}.mce-i-alignnone:before{content:"\e003"}.mce-i-cut:before{content:"\e007"}.mce-i-paste:before{content:"\e008"}.mce-i-searchreplace:before{content:"\e009"}.mce-i-bullist:before{content:"\e00a"}.mce-i-numlist:before{content:"\e00b"}.mce-i-indent:before{content:"\e00c"}.mce-i-outdent:before{content:"\e00d"}.mce-i-blockquote:before{content:"\e00e"}.mce-i-undo:before{content:"\e00f"}.mce-i-redo:before{content:"\e010"}.mce-i-link:before{content:"\e011"}.mce-i-unlink:before{content:"\e012"}.mce-i-anchor:before{content:"\e013"}.mce-i-image:before{content:"\e014"}.mce-i-media:before{content:"\e015"}.mce-i-help:before{content:"\e016"}.mce-i-code:before{content:"\e017"}.mce-i-insertdatetime:before{content:"\e018"}.mce-i-preview:before{content:"\e019"}.mce-i-forecolor:before{content:"\e01a"}.mce-i-backcolor:before{content:"\e01a"}.mce-i-table:before{content:"\e01b"}.mce-i-hr:before{content:"\e01c"}.mce-i-removeformat:before{content:"\e01d"}.mce-i-subscript:before{content:"\e01e"}.mce-i-superscript:before{content:"\e01f"}.mce-i-charmap:before{content:"\e020"}.mce-i-emoticons:before{content:"\e021"}.mce-i-print:before{content:"\e022"}.mce-i-fullscreen:before{content:"\e023"}.mce-i-spellchecker:before{content:"\e024"}.mce-i-nonbreaking:before{content:"\e025"}.mce-i-template:before{content:"\e026"}.mce-i-pagebreak:before{content:"\e027"}.mce-i-restoredraft:before{content:"\e028"}.mce-i-bold:before{content:"\e02a"}.mce-i-italic:before{content:"\e02b"}.mce-i-underline:before{content:"\e02c"}.mce-i-strikethrough:before{content:"\e02d"}.mce-i-visualchars:before{content:"\e02e"}.mce-i-visualblocks:before{content:"\e02e"}.mce-i-ltr:before{content:"\e02f"}.mce-i-rtl:before{content:"\e030"}.mce-i-copy:before{content:"\e031"}.mce-i-resize:before{content:"\e032"}.mce-i-browse:before{content:"\e034"}.mce-i-pastetext:before{content:"\e035"}.mce-i-rotateleft:before{content:"\eaa8"}.mce-i-rotateright:before{content:"\eaa9"}.mce-i-crop:before{content:"\ee78"}.mce-i-editimage:before{content:"\e915"}.mce-i-options:before{content:"\ec6a"}.mce-i-flipv:before{content:"\eaaa"}.mce-i-fliph:before{content:"\eaac"}.mce-i-zoomin:before{content:"\eb35"}.mce-i-zoomout:before{content:"\eb36"}.mce-i-sun:before{content:"\eccc"}.mce-i-moon:before{content:"\eccd"}.mce-i-arrowleft:before{content:"\edc0"}.mce-i-arrowright:before{content:"\e93c"}.mce-i-drop:before{content:"\e935"}.mce-i-contrast:before{content:"\ecd4"}.mce-i-sharpen:before{content:"\eba7"}.mce-i-resize2:before{content:"\edf9"}.mce-i-orientation:before{content:"\e601"}.mce-i-invert:before{content:"\e602"}.mce-i-gamma:before{content:"\e600"}.mce-i-remove:before{content:"\ed6a"}.mce-i-tablerowprops:before{content:"\e604"}.mce-i-tablecellprops:before{content:"\e605"}.mce-i-table2:before{content:"\e606"}.mce-i-tablemergecells:before{content:"\e607"}.mce-i-tableinsertcolbefore:before{content:"\e608"}.mce-i-tableinsertcolafter:before{content:"\e609"}.mce-i-tableinsertrowbefore:before{content:"\e60a"}.mce-i-tableinsertrowafter:before{content:"\e60b"}.mce-i-tablesplitcells:before{content:"\e60d"}.mce-i-tabledelete:before{content:"\e60e"}.mce-i-tableleftheader:before{content:"\e62a"}.mce-i-tabletopheader:before{content:"\e62b"}.mce-i-tabledeleterow:before{content:"\e800"}.mce-i-tabledeletecol:before{content:"\e801"}.mce-i-codesample:before{content:"\e603"}.mce-i-fill:before{content:"\e902"}.mce-i-borderwidth:before{content:"\e903"}.mce-i-line:before{content:"\e904"}.mce-i-count:before{content:"\e905"}.mce-i-translate:before{content:"\e907"}.mce-i-drag:before{content:"\e908"}.mce-i-home:before{content:"\e90b"}.mce-i-upload:before{content:"\e914"}.mce-i-bubble:before{content:"\e91c"}.mce-i-user:before{content:"\e91d"}.mce-i-lock:before{content:"\e926"}.mce-i-unlock:before{content:"\e927"}.mce-i-settings:before{content:"\e928"}.mce-i-remove2:before{content:"\e92a"}.mce-i-menu:before{content:"\e92d"}.mce-i-warning:before{content:"\e930"}.mce-i-question:before{content:"\e931"}.mce-i-pluscircle:before{content:"\e932"}.mce-i-info:before{content:"\e933"}.mce-i-notice:before{content:"\e934"}.mce-i-arrowup:before{content:"\e93b"}.mce-i-arrowdown:before{content:"\e93d"}.mce-i-arrowup2:before{content:"\e93f"}.mce-i-arrowdown2:before{content:"\e940"}.mce-i-menu2:before{content:"\e941"}.mce-i-newtab:before{content:"\e961"}.mce-i-a11y:before{content:"\e900"}.mce-i-plus:before{content:"\e93a"}.mce-i-insert:before{content:"\e93a"}.mce-i-minus:before{content:"\e939"}.mce-i-books:before{content:"\e911"}.mce-i-reload:before{content:"\e906"}.mce-i-toc:before{content:"\e901"}.mce-i-checkmark:before{content:"\e033"}.mce-i-checkbox:before,.mce-i-selected:before{content:"\e033"}.mce-i-insert{font-size:14px}.mce-i-selected{visibility:hidden}i.mce-i-backcolor{text-shadow:none;background:#BBB}
+.mce-container{position: relative !important;}
+.mce-colorbutton button{position: static !important;}
+
+
+
+/*! mCustomScrollbar */
+.mCustomScrollbar{-ms-touch-action:pinch-zoom;touch-action:pinch-zoom}.mCustomScrollbar.mCS_no_scrollbar,.mCustomScrollbar.mCS_touch_action{-ms-touch-action:auto;touch-action:auto}.mCustomScrollBox{position:relative;overflow:hidden;height:100%;max-width:100%;outline:0;direction:ltr}.mCSB_container{overflow:hidden;width:auto;height:auto}.mCSB_inside>.mCSB_container{margin-right:20px}.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{margin-right:0}.mCS-dir-rtl>.mCSB_inside>.mCSB_container{margin-right:0;margin-left:30px}.mCS-dir-rtl>.mCSB_inside>.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{margin-left:0}.mCSB_scrollTools{position:absolute;width:16px;height:auto;left:auto;top:0;right:0;bottom:0;opacity:.75;filter:"alpha(opacity=75)";-ms-filter:"alpha(opacity=75)"}.mCSB_outside+.mCSB_scrollTools{right:-26px}.mCS-dir-rtl>.mCSB_inside>.mCSB_scrollTools,.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools{right:auto;left:0}.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools{left:-26px}.mCSB_scrollTools .mCSB_draggerContainer{position:absolute;top:0;left:0;bottom:0;right:0;height:auto}.mCSB_scrollTools a+.mCSB_draggerContainer{margin:20px 0}.mCSB_scrollTools .mCSB_draggerRail{width:2px;height:100%;margin:0 auto;-webkit-border-radius:16px;-moz-border-radius:16px;border-radius:16px}.mCSB_scrollTools .mCSB_dragger{cursor:pointer;width:100%;height:30px;z-index:1}.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{position:relative;width:4px;height:100%;margin:0 auto;-webkit-border-radius:16px;-moz-border-radius:16px;border-radius:16px;text-align:center}.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{width:12px}.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{width:8px}.mCSB_scrollTools .mCSB_buttonDown,.mCSB_scrollTools .mCSB_buttonUp{display:block;position:absolute;height:20px;width:100%;overflow:hidden;margin:0 auto;cursor:pointer}.mCSB_scrollTools .mCSB_buttonDown{bottom:0}.mCSB_horizontal.mCSB_inside>.mCSB_container{margin-right:0;margin-bottom:30px}.mCSB_horizontal.mCSB_outside>.mCSB_container{min-height:100%}.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden{margin-bottom:0}.mCSB_scrollTools.mCSB_scrollTools_horizontal{width:auto;height:16px;top:auto;right:0;bottom:0;left:0}.mCustomScrollBox+.mCSB_scrollTools+.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCustomScrollBox+.mCSB_scrollTools.mCSB_scrollTools_horizontal{bottom:-26px}.mCSB_scrollTools.mCSB_scrollTools_horizontal a+.mCSB_draggerContainer{margin:0 20px}.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;height:2px;margin:7px 0}.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger{width:30px;height:100%;left:0}.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{width:100%;height:4px;margin:6px auto}.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{height:12px;margin:2px auto}.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{height:8px;margin:4px 0}.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft,.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight{display:block;position:absolute;width:20px;height:100%;overflow:hidden;margin:0 auto;cursor:pointer}.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft{left:0}.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight{right:0}.mCSB_container_wrapper{position:absolute;height:auto;width:auto;overflow:hidden;top:0;left:0;right:0;bottom:0;margin-right:30px;margin-bottom:30px}.mCSB_container_wrapper>.mCSB_container{padding-right:30px;padding-bottom:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical{bottom:20px}.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal{right:20px}.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden+.mCSB_scrollTools.mCSB_scrollTools_vertical{bottom:0}.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal{right:0}.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal{left:20px}.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal{left:0}.mCS-dir-rtl>.mCSB_inside>.mCSB_container_wrapper{margin-right:0;margin-left:30px}.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden>.mCSB_container{padding-right:0}.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container{padding-bottom:0}.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden{margin-right:0;margin-left:0}.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden{margin-bottom:0}.mCSB_scrollTools,.mCSB_scrollTools .mCSB_buttonDown,.mCSB_scrollTools .mCSB_buttonLeft,.mCSB_scrollTools .mCSB_buttonRight,.mCSB_scrollTools .mCSB_buttonUp,.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{-webkit-transition:opacity .2s ease-in-out,background-color .2s ease-in-out;-moz-transition:opacity .2s ease-in-out,background-color .2s ease-in-out;-o-transition:opacity .2s ease-in-out,background-color .2s ease-in-out;transition:opacity .2s ease-in-out,background-color .2s ease-in-out}.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar{-webkit-transition:width .2s ease-out .2s,height .2s ease-out .2s,margin-left .2s ease-out .2s,margin-right .2s ease-out .2s,margin-top .2s ease-out .2s,margin-bottom .2s ease-out .2s,opacity .2s ease-in-out,background-color .2s ease-in-out;-moz-transition:width .2s ease-out .2s,height .2s ease-out .2s,margin-left .2s ease-out .2s,margin-right .2s ease-out .2s,margin-top .2s ease-out .2s,margin-bottom .2s ease-out .2s,opacity .2s ease-in-out,background-color .2s ease-in-out;-o-transition:width .2s ease-out .2s,height .2s ease-out .2s,margin-left .2s ease-out .2s,margin-right .2s ease-out .2s,margin-top .2s ease-out .2s,margin-bottom .2s ease-out .2s,opacity .2s ease-in-out,background-color .2s ease-in-out;transition:width .2s ease-out .2s,height .2s ease-out .2s,margin-left .2s ease-out .2s,margin-right .2s ease-out .2s,margin-top .2s ease-out .2s,margin-bottom .2s ease-out .2s,opacity .2s ease-in-out,background-color .2s ease-in-out}.mCS-autoHide>.mCustomScrollBox>.mCSB_scrollTools,.mCS-autoHide>.mCustomScrollBox~.mCSB_scrollTools{opacity:0;filter:"alpha(opacity=0)";-ms-filter:"alpha(opacity=0)"}.mCS-autoHide:hover>.mCustomScrollBox>.mCSB_scrollTools,.mCS-autoHide:hover>.mCustomScrollBox~.mCSB_scrollTools,.mCustomScrollBox:hover>.mCSB_scrollTools,.mCustomScrollBox:hover~.mCSB_scrollTools,.mCustomScrollbar>.mCustomScrollBox>.mCSB_scrollTools.mCSB_scrollTools_onDrag,.mCustomScrollbar>.mCustomScrollBox~.mCSB_scrollTools.mCSB_scrollTools_onDrag{opacity:1;filter:"alpha(opacity=100)";-ms-filter:"alpha(opacity=100)"}.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.4);filter:"alpha(opacity=40)";-ms-filter:"alpha(opacity=40)"}.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.75);filter:"alpha(opacity=75)";-ms-filter:"alpha(opacity=75)"}.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.85);filter:"alpha(opacity=85)";-ms-filter:"alpha(opacity=85)"}.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.9);filter:"alpha(opacity=90)";-ms-filter:"alpha(opacity=90)"}.mCSB_scrollTools .mCSB_buttonDown,.mCSB_scrollTools .mCSB_buttonLeft,.mCSB_scrollTools .mCSB_buttonRight,.mCSB_scrollTools .mCSB_buttonUp{background-image:url(//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/mCSB_buttons.png);background-repeat:no-repeat;opacity:.4;filter:"alpha(opacity=40)";-ms-filter:"alpha(opacity=40)"}.mCSB_scrollTools .mCSB_buttonUp{background-position:0 0}.mCSB_scrollTools .mCSB_buttonDown{background-position:0 -20px}.mCSB_scrollTools .mCSB_buttonLeft{background-position:0 -40px}.mCSB_scrollTools .mCSB_buttonRight{background-position:0 -56px}.mCSB_scrollTools .mCSB_buttonDown:hover,.mCSB_scrollTools .mCSB_buttonLeft:hover,.mCSB_scrollTools .mCSB_buttonRight:hover,.mCSB_scrollTools .mCSB_buttonUp:hover{opacity:.75;filter:"alpha(opacity=75)";-ms-filter:"alpha(opacity=75)"}.mCSB_scrollTools .mCSB_buttonDown:active,.mCSB_scrollTools .mCSB_buttonLeft:active,.mCSB_scrollTools .mCSB_buttonRight:active,.mCSB_scrollTools .mCSB_buttonUp:active{opacity:.9;filter:"alpha(opacity=90)";-ms-filter:"alpha(opacity=90)"}.mCS-dark.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.15)}.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.75)}.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:rgba(0,0,0,.85)}.mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:rgba(0,0,0,.9)}.mCS-dark.mCSB_scrollTools .mCSB_buttonUp{background-position:-80px 0}.mCS-dark.mCSB_scrollTools .mCSB_buttonDown{background-position:-80px -20px}.mCS-dark.mCSB_scrollTools .mCSB_buttonLeft{background-position:-80px -40px}.mCS-dark.mCSB_scrollTools .mCSB_buttonRight{background-position:-80px -56px}.mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail,.mCS-light-2.mCSB_scrollTools .mCSB_draggerRail{width:4px;background-color:#fff;background-color:rgba(255,255,255,.1);-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px}.mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-light-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:4px;background-color:#fff;background-color:rgba(255,255,255,.75);-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px}.mCS-dark-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-dark-2.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-light-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-light-2.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;height:4px;margin:6px auto}.mCS-light-2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.85)}.mCS-light-2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-light-2.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.9)}.mCS-light-2.mCSB_scrollTools .mCSB_buttonUp{background-position:-32px 0}.mCS-light-2.mCSB_scrollTools .mCSB_buttonDown{background-position:-32px -20px}.mCS-light-2.mCSB_scrollTools .mCSB_buttonLeft{background-position:-40px -40px}.mCS-light-2.mCSB_scrollTools .mCSB_buttonRight{background-position:-40px -56px}.mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.1);-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px}.mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.75);-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px}.mCS-dark-2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.85)}.mCS-dark-2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-dark-2.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.9)}.mCS-dark-2.mCSB_scrollTools .mCSB_buttonUp{background-position:-112px 0}.mCS-dark-2.mCSB_scrollTools .mCSB_buttonDown{background-position:-112px -20px}.mCS-dark-2.mCSB_scrollTools .mCSB_buttonLeft{background-position:-120px -40px}.mCS-dark-2.mCSB_scrollTools .mCSB_buttonRight{background-position:-120px -56px}.mCS-dark-thick.mCSB_scrollTools .mCSB_draggerRail,.mCS-light-thick.mCSB_scrollTools .mCSB_draggerRail{width:4px;background-color:#fff;background-color:rgba(255,255,255,.1);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-light-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px;background-color:#fff;background-color:rgba(255,255,255,.75);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.mCS-dark-thick.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-light-thick.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;height:4px;margin:6px 0}.mCS-dark-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-light-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{width:100%;height:6px;margin:5px auto}.mCS-light-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.85)}.mCS-light-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-light-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.9)}.mCS-light-thick.mCSB_scrollTools .mCSB_buttonUp{background-position:-16px 0}.mCS-light-thick.mCSB_scrollTools .mCSB_buttonDown{background-position:-16px -20px}.mCS-light-thick.mCSB_scrollTools .mCSB_buttonLeft{background-position:-20px -40px}.mCS-light-thick.mCSB_scrollTools .mCSB_buttonRight{background-position:-20px -56px}.mCS-dark-thick.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.1);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.75);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.85)}.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.9)}.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonUp{background-position:-96px 0}.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonDown{background-position:-96px -20px}.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonLeft{background-position:-100px -40px}.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonRight{background-position:-100px -56px}.mCS-light-thin.mCSB_scrollTools .mCSB_draggerRail{background-color:#fff;background-color:rgba(255,255,255,.1)}.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-light-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:2px}.mCS-dark-thin.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-light-thin.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%}.mCS-dark-thin.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-light-thin.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{width:100%;height:2px;margin:7px auto}.mCS-dark-thin.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.15)}.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.75)}.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.85)}.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.9)}.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonUp{background-position:-80px 0}.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonDown{background-position:-80px -20px}.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonLeft{background-position:-80px -40px}.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonRight{background-position:-80px -56px}.mCS-rounded.mCSB_scrollTools .mCSB_draggerRail{background-color:#fff;background-color:rgba(255,255,255,.15)}.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger,.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger,.mCS-rounded-dots.mCSB_scrollTools .mCSB_dragger,.mCS-rounded.mCSB_scrollTools .mCSB_dragger{height:14px}.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded-dots.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:14px;margin:0 1px}.mCS-rounded-dark.mCSB_scrollTools_horizontal .mCSB_dragger,.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_dragger,.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_dragger,.mCS-rounded.mCSB_scrollTools_horizontal .mCSB_dragger{width:14px}.mCS-rounded-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{height:14px;margin:1px 0}.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{width:16px;height:16px;margin:-1px 0}.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{width:4px}.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{height:16px;width:16px;margin:0 -1px}.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{height:4px;margin:6px 0}.mCS-rounded.mCSB_scrollTools .mCSB_buttonUp{background-position:0 -72px}.mCS-rounded.mCSB_scrollTools .mCSB_buttonDown{background-position:0 -92px}.mCS-rounded.mCSB_scrollTools .mCSB_buttonLeft{background-position:0 -112px}.mCS-rounded.mCSB_scrollTools .mCSB_buttonRight{background-position:0 -128px}.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.75)}.mCS-rounded-dark.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.15)}.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.85)}.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.9)}.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonUp{background-position:-80px -72px}.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonDown{background-position:-80px -92px}.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonLeft{background-position:-80px -112px}.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonRight{background-position:-80px -128px}.mCS-rounded-dots-dark.mCSB_scrollTools_vertical .mCSB_draggerRail,.mCS-rounded-dots.mCSB_scrollTools_vertical .mCSB_draggerRail{width:4px}.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-rounded-dots.mCSB_scrollTools .mCSB_draggerRail,.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_draggerRail{background-color:transparent;background-position:center}.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-rounded-dots.mCSB_scrollTools .mCSB_draggerRail{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAANElEQVQYV2NkIAAYiVbw//9/Y6DiM1ANJoyMjGdBbLgJQAX/kU0DKgDLkaQAvxW4HEvQFwCRcxIJK1XznAAAAABJRU5ErkJggg==);background-repeat:repeat-y;opacity:.3;filter:"alpha(opacity=30)";-ms-filter:"alpha(opacity=30)"}.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_draggerRail{height:4px;margin:6px 0;background-repeat:repeat-x}.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonUp{background-position:-16px -72px}.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonDown{background-position:-16px -92px}.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonLeft{background-position:-20px -112px}.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonRight{background-position:-20px -128px}.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALElEQVQYV2NkIAAYSVFgDFR8BqrBBEifBbGRTfiPZhpYjiQFBK3A6l6CvgAAE9kGCd1mvgEAAAAASUVORK5CYII=)}.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonUp{background-position:-96px -72px}.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonDown{background-position:-96px -92px}.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonLeft{background-position:-100px -112px}.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonRight{background-position:-100px -128px}.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-repeat:repeat-y;background-image:-moz-linear-gradient(left,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%);background-image:-webkit-gradient(linear,left top,right top,color-stop(0,rgba(255,255,255,.5)),color-stop(100%,rgba(255,255,255,0)));background-image:-webkit-linear-gradient(left,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%);background-image:-o-linear-gradient(left,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%);background-image:-ms-linear-gradient(left,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%);background-image:linear-gradient(to right,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%)}.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{background-repeat:repeat-x;background-image:-moz-linear-gradient(top,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(255,255,255,.5)),color-stop(100%,rgba(255,255,255,0)));background-image:-webkit-linear-gradient(top,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%);background-image:-o-linear-gradient(top,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%);background-image:-ms-linear-gradient(top,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%);background-image:linear-gradient(to bottom,rgba(255,255,255,.5) 0,rgba(255,255,255,0) 100%)}.mCS-3d-dark.mCSB_scrollTools_vertical .mCSB_dragger,.mCS-3d.mCSB_scrollTools_vertical .mCSB_dragger{height:70px}.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger,.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger{width:70px}.mCS-3d-dark.mCSB_scrollTools,.mCS-3d.mCSB_scrollTools{opacity:1;filter:"alpha(opacity=30)";-ms-filter:"alpha(opacity=30)"}.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools .mCSB_draggerRail{-webkit-border-radius:16px;-moz-border-radius:16px;border-radius:16px}.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-3d.mCSB_scrollTools .mCSB_draggerRail{width:8px;background-color:#000;background-color:rgba(0,0,0,.2);box-shadow:inset 1px 0 1px rgba(0,0,0,.5),inset -1px 0 1px rgba(255,255,255,.2)}.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#555}.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:8px}.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-3d.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;height:8px;margin:4px 0;box-shadow:inset 0 1px 1px rgba(0,0,0,.5),inset 0 -1px 1px rgba(255,255,255,.2)}.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{width:100%;height:8px;margin:4px auto}.mCS-3d.mCSB_scrollTools .mCSB_buttonUp{background-position:-32px -72px}.mCS-3d.mCSB_scrollTools .mCSB_buttonDown{background-position:-32px -92px}.mCS-3d.mCSB_scrollTools .mCSB_buttonLeft{background-position:-40px -112px}.mCS-3d.mCSB_scrollTools .mCSB_buttonRight{background-position:-40px -128px}.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.1);box-shadow:inset 1px 0 1px rgba(0,0,0,.1)}.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail{box-shadow:inset 0 1px 1px rgba(0,0,0,.1)}.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonUp{background-position:-112px -72px}.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonDown{background-position:-112px -92px}.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonLeft{background-position:-120px -112px}.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonRight{background-position:-120px -128px}.mCS-3d-thick-dark.mCSB_scrollTools,.mCS-3d-thick.mCSB_scrollTools{opacity:1;filter:"alpha(opacity=30)";-ms-filter:"alpha(opacity=30)"}.mCS-3d-thick-dark.mCSB_scrollTools,.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerContainer,.mCS-3d-thick.mCSB_scrollTools,.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer{-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px}.mCSB_inside+.mCS-3d-thick-dark.mCSB_scrollTools_vertical,.mCSB_inside+.mCS-3d-thick.mCSB_scrollTools_vertical{right:1px}.mCS-3d-thick-dark.mCSB_scrollTools_vertical,.mCS-3d-thick.mCSB_scrollTools_vertical{box-shadow:inset 1px 0 1px rgba(0,0,0,.1),inset 0 0 14px rgba(0,0,0,.5)}.mCS-3d-thick-dark.mCSB_scrollTools_horizontal,.mCS-3d-thick.mCSB_scrollTools_horizontal{bottom:1px;box-shadow:inset 0 1px 1px rgba(0,0,0,.1),inset 0 0 14px rgba(0,0,0,.5)}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;box-shadow:inset 1px 0 0 rgba(255,255,255,.4);width:12px;margin:2px;position:absolute;height:auto;top:0;bottom:0;left:0;right:0}.mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{box-shadow:inset 0 1px 0 rgba(255,255,255,.4);height:12px;width:auto}.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#555}.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer{background-color:#000;background-color:rgba(0,0,0,.05);box-shadow:inset 1px 1px 16px rgba(0,0,0,.1)}.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerRail{background-color:transparent}.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonUp{background-position:-32px -72px}.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonDown{background-position:-32px -92px}.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonLeft{background-position:-40px -112px}.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonRight{background-position:-40px -128px}.mCS-3d-thick-dark.mCSB_scrollTools{box-shadow:inset 0 0 14px rgba(0,0,0,.2)}.mCS-3d-thick-dark.mCSB_scrollTools_horizontal{box-shadow:inset 0 1px 1px rgba(0,0,0,.1),inset 0 0 14px rgba(0,0,0,.2)}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{box-shadow:inset 1px 0 0 rgba(255,255,255,.4),inset -1px 0 0 rgba(0,0,0,.2)}.mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{box-shadow:inset 0 1px 0 rgba(255,255,255,.4),inset 0 -1px 0 rgba(0,0,0,.2)}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#777}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerContainer{background-color:#fff;background-color:rgba(0,0,0,.05);box-shadow:inset 1px 1px 16px rgba(0,0,0,.1)}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-minimal.mCSB_scrollTools .mCSB_draggerRail{background-color:transparent}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonUp{background-position:-112px -72px}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonDown{background-position:-112px -92px}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonLeft{background-position:-120px -112px}.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonRight{background-position:-120px -128px}.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical,.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical{right:0;margin:12px 0}.mCustomScrollBox.mCS-minimal+.mCSB_scrollTools+.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCustomScrollBox.mCS-minimal+.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCustomScrollBox.mCS-minimal-dark+.mCSB_scrollTools+.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCustomScrollBox.mCS-minimal-dark+.mCSB_scrollTools.mCSB_scrollTools_horizontal{bottom:0;margin:0 12px}.mCS-dir-rtl>.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical,.mCS-dir-rtl>.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical{left:0;right:auto}.mCS-minimal-dark.mCSB_scrollTools_vertical .mCSB_dragger,.mCS-minimal.mCSB_scrollTools_vertical .mCSB_dragger{height:50px}.mCS-minimal-dark.mCSB_scrollTools_horizontal .mCSB_dragger,.mCS-minimal.mCSB_scrollTools_horizontal .mCSB_dragger{width:50px}.mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.2);filter:"alpha(opacity=20)";-ms-filter:"alpha(opacity=20)"}.mCS-minimal.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-minimal.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.5);filter:"alpha(opacity=50)";-ms-filter:"alpha(opacity=50)"}.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.2);filter:"alpha(opacity=20)";-ms-filter:"alpha(opacity=20)"}.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.5);filter:"alpha(opacity=50)";-ms-filter:"alpha(opacity=50)"}.mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail,.mCS-light-3.mCSB_scrollTools .mCSB_draggerRail{width:6px;background-color:#000;background-color:rgba(0,0,0,.2)}.mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px}.mCS-dark-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-dark-3.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-light-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-light-3.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;height:6px;margin:5px 0}.mCS-dark-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCS-dark-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,.mCS-light-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCS-light-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{width:12px}.mCS-dark-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCS-dark-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,.mCS-light-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,.mCS-light-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{height:12px;margin:2px 0}.mCS-light-3.mCSB_scrollTools .mCSB_buttonUp{background-position:-32px -72px}.mCS-light-3.mCSB_scrollTools .mCSB_buttonDown{background-position:-32px -92px}.mCS-light-3.mCSB_scrollTools .mCSB_buttonLeft{background-position:-40px -112px}.mCS-light-3.mCSB_scrollTools .mCSB_buttonRight{background-position:-40px -128px}.mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.75)}.mCS-dark-3.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.85)}.mCS-dark-3.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-dark-3.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.9)}.mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.1)}.mCS-dark-3.mCSB_scrollTools .mCSB_buttonUp{background-position:-112px -72px}.mCS-dark-3.mCSB_scrollTools .mCSB_buttonDown{background-position:-112px -92px}.mCS-dark-3.mCSB_scrollTools .mCSB_buttonLeft{background-position:-120px -112px}.mCS-dark-3.mCSB_scrollTools .mCSB_buttonRight{background-position:-120px -128px}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-inset-2.mCSB_scrollTools .mCSB_draggerRail,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-inset-3.mCSB_scrollTools .mCSB_draggerRail,.mCS-inset-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-inset.mCSB_scrollTools .mCSB_draggerRail{width:12px;background-color:#000;background-color:rgba(0,0,0,.2)}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-inset.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px;margin:3px 5px;position:absolute;height:auto;top:0;bottom:0;left:0;right:0}.mCS-inset-2-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-3-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCS-inset.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{height:6px;margin:5px 3px;position:absolute;width:auto;top:0;bottom:0;left:0;right:0}.mCS-inset-2-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-inset-2.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-inset-3-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-inset-3.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-inset-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,.mCS-inset.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;height:12px;margin:2px 0}.mCS-inset-2.mCSB_scrollTools .mCSB_buttonUp,.mCS-inset-3.mCSB_scrollTools .mCSB_buttonUp,.mCS-inset.mCSB_scrollTools .mCSB_buttonUp{background-position:-32px -72px}.mCS-inset-2.mCSB_scrollTools .mCSB_buttonDown,.mCS-inset-3.mCSB_scrollTools .mCSB_buttonDown,.mCS-inset.mCSB_scrollTools .mCSB_buttonDown{background-position:-32px -92px}.mCS-inset-2.mCSB_scrollTools .mCSB_buttonLeft,.mCS-inset-3.mCSB_scrollTools .mCSB_buttonLeft,.mCS-inset.mCSB_scrollTools .mCSB_buttonLeft{background-position:-40px -112px}.mCS-inset-2.mCSB_scrollTools .mCSB_buttonRight,.mCS-inset-3.mCSB_scrollTools .mCSB_buttonRight,.mCS-inset.mCSB_scrollTools .mCSB_buttonRight{background-position:-40px -128px}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.75)}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.85)}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.9)}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-inset-dark.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.1)}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonUp,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonUp,.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonUp{background-position:-112px -72px}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonDown,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonDown,.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonDown{background-position:-112px -92px}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonLeft,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonLeft,.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonLeft{background-position:-120px -112px}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonRight,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonRight,.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonRight{background-position:-120px -128px}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail,.mCS-inset-2.mCSB_scrollTools .mCSB_draggerRail{background-color:transparent;border-width:1px;border-style:solid;border-color:#fff;border-color:rgba(255,255,255,.2);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail{border-color:#000;border-color:rgba(0,0,0,.2)}.mCS-inset-3.mCSB_scrollTools .mCSB_draggerRail{background-color:#fff;background-color:rgba(255,255,255,.6)}.mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail{background-color:#000;background-color:rgba(0,0,0,.6)}.mCS-inset-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.75)}.mCS-inset-3.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.85)}.mCS-inset-3.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-inset-3.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#000;background-color:rgba(0,0,0,.9)}.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.75)}.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.85)}.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color:#fff;background-color:rgba(255,255,255,.9)}
+

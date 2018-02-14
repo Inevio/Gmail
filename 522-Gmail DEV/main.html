@@ -1,0 +1,365 @@
+<section class="ui-window gmail">
+  <section class="ui-header wz-dragger">
+      <section class="ui-header-top wz-dragger">
+          <section class="ui-header-brand wz-dragger accountRegistered">
+              <figure class="wz-dragger">
+                  <i class="wz-dragger"></i>
+              </figure>
+              <span class="app-title wz-dragger"></span>
+          </section>
+          <div class="ui-header-search wz-dragger accountRegistered">
+            <figure class="wz-dragger">
+                <b></b>
+             <input type="text" id="hrgmail_search">
+            </figure>
+         </div>
+          <section class="ui-header-buttons">
+              <figure class="ui-minimize"><i></i></figure>
+              <figure class="ui-maximize window"><i></i></figure>
+              <figure class="ui-close"><i></i></figure>
+          </section>
+      </section>
+      
+      <section class="ui-header-bottom wz-dragger accountRegistered"> 
+          <section class="ui-header-profile-out wz-dragger">
+            <section class="ui-header-profile wz-dragger">
+                <figure class="wz-dragger">
+                    <img class="wz-dragger user-avatar" src="https://static.horbito.com/app/522/hrgmail_hdr_usrPro_pic.png" >
+                </figure>
+                <span class="user-name wz-dragger"><span class="selected-account-user-name"></span></span>
+            </section>
+          </section>
+          <!-- Hidden fields-->
+          <input type="hidden" id="labelid" value="INBOX"/>
+          <input type="hidden" id="oldLabelId" value="INBOX"/>
+          <input type="hidden" id="labelidSelect" />
+          <input type="hidden" id="nextPageToken" value=""/>
+          <input type="hidden" id="previousPageToken" value=""/>
+          <input type="hidden" id="fromPaginate" value="0"/>
+          <input type="hidden" id="toPaginate" value="0"/>
+          <input type="hidden" id="lastPage" value="1"/>
+          <input type="hidden" id="detailPage" value="0"/>
+          <input type="hidden" id="detailPageIds" value=""/>
+          <input type="hidden" id="replayForwadType" value=""/>
+          <input type="hidden" id="openThreadId" value=""/>
+          <!-- Hidden fields-->
+            <div class="hrgmail_hdr_formatBar_out clearfix">
+                
+              <div class="hrgmail_hdr_formatBar_left">
+                        <div class="hrgmail_chckRelod_formt_out clearfix ">
+                          <ul>
+                            <li  class="hrgmail_list_removespace checkbox_all hrgmail_select_title">
+                                <div class="hrgmail_allRead_btnType hrgmail_allRead_drop_checkOut" >
+                                  <div class="hrgmail_allRead_drop_slct"><span></span>
+                                    <div class="hrgmail_defaultDropdown hrgmail_allCheck" id="hrgmail_allCheck" style="display: none">
+                                          <ul>
+                                              <li><span class="hrgmail_allCheck_all" data-id="all"></span></li>
+                                              <li><span class="hrgmail_allCheck_none" data-id="none"></span></li>
+                                              <li><span class="hrgmail_allCheck_read" data-id="read"></span></li>
+                                              <li><span class="hrgmail_allCheck_unread" data-id="unread"></span></li>
+                                              <li><span class="hrgmail_allCheck_starred" data-id="starred"></span></li>
+                                              <li><span class="hrgmail_allCheck_unstarred" data-id="unstarred"></span></li> 
+                                          </ul>
+                                      </div>
+                                  </div>
+                                  <label class="hrgmail_allRead_drop_chckBox">
+                                      <input type="checkbox" id="checkAll">
+                                  </label>
+                                </div>
+                            </li>
+                            <li  class="hrgmail_refresh_title"> 
+                                <span class="hrgmail_allRead_btnType hrgmail_allRead_reload reload_messages refresh_messages"> </span> 
+                                <div class="hrgmail_successLayer"></div>
+                                <div class="hrgmail_errorLayer"></div>
+                            </li>  
+                            <li style="display: none;" class="hrgmail_list_removespace back_messages">
+                                <span class="hrgmail_allRead_btnType hrgmail_backAero reload_messages"> </span>  
+                            </li>                                                        
+                            <li class="details_icons hrgmail_archive" > <span class="hrgmail_allRead_btnType hrgmail_archive_icon hrgmail_list_btnWidth" id="hrgmail-archive-button"> </span>  </li>
+                            
+                            <li class="hrgmail_list_removespace details_icons hrgmail_report_spam">
+                                <span class="hrgmail_allRead_btnType hrgmail_spam hrgmail_list_btnWidth" id="hrgmail-spam-button"> </span>
+                            </li>
+                            
+                            <li class="hrgmail_list_removespace details_icons hrgmail_delete_title"> <span class="hrgmail_allRead_btnType hrgmail_delete_icon hrgmail_list_btnWidth" id="hrgmail-remove-button"> </span>  </li>
+                            <li class="hrgmail_discard_drafts">
+                              <div class="hrgmail_allRead_btnType2">
+                                <span class="hrgmail_static_btn"></span>
+                              </div>
+                            </li>
+                            <li class="hrgmail_move_to_inbox">
+                              <div class="hrgmail_allRead_btnType2">
+                                <span class="hrgmail_static_btn"></span>
+                              </div>
+                            </li>                            
+                            <li class="hrgmail_delete_forever">
+                              <div class="hrgmail_allRead_btnType2">
+                                <span class="hrgmail_static_btn"></span>
+                              </div>
+                            </li>
+                            <li class="hrgmail_trash_report_spam">
+                                <span class="hrgmail_allRead_btnType hrgmail_spam2" id="hrgmail-trash-spam-button"> </span>                                 
+                            </li>
+                            <li class="hrgmail_not_spam">
+                              <div class="hrgmail_allRead_btnType2">
+                                <span class="hrgmail_static_btn"></span>
+                              </div>
+                            </li>
+                            <li class="details_icons hrgmail_moveto_title">
+                              <div class="hrgmail_allRead_btnType hrgmail_moveinbox_icon hrgmail_labelMove_btnWidth ">
+                                <div class="hrgmail_allRead_more_select hrgmail_moveto_btn" ><span><i>&nbsp;</i></span>
+                                   <div class="hrgmail_defaultDropdown hrgmail_allCheck" id="hrgmail_moveto" style="display: none">
+                                       <div class="hrgmail_move_to">
+                                            <label></label>
+                                            <!-- <input type="search">-->
+                                        </div> 
+                                       <div class="social_parmotions hrgmail_custom_labels">
+                                        <ul>
+                                            <li><span class="hrgmail_move_to_social" data-id="CATEGORY_SOCIAL"></span></li>
+                                            <li><span class="hrgmail_move_to_promotions" data-id="CATEGORY_PROMOTIONS"></span></li>
+                                            <li><span class="hrgmail_move_to_updates" data-id="CATEGORY_UPDATES"></span></li>
+                                            <li><span class="hrgmail_move_to_forums" data-id="CATEGORY_FORUMS"> </span></li>
+                                        </ul>
+                                       </div>
+                                       <div class="social_parmotions lastParmotons">
+                                        <ul> </ul>
+                                       </div>
+                                    </div>                                                                        
+                                </div>
+                              </div>
+                            </li>
+
+                            <li class="hrgmail_list_removespace hrgmail_labels details_icons hrgmail_labelas_title">
+                              <div class="hrgmail_allRead_btnType hrgmail_labelMove_btnWidth">
+                                <div class="hrgmail_allRead_more_select hrgmail_labelas_btn"><span><i>&nbsp;</i></span>  
+                                  <div class="hrgmail_defaultDropdown hrgmail_allCheck" id="hrgmail_labelas" style="display: none">
+                                       <div class="hrgmail_move_to">
+                                            <label></label>
+                                            <!-- <input type="search">-->
+                                        </div> 
+                                       <div class="social_parmotions hrgmail_custom_labels">
+                                        <ul>
+                                            <li><div class="label_checkbox"><label><input type="checkbox" value="CATEGORY_SOCIAL"></label></div><span class="hrgmail_move_to_social" data-id="CATEGORY_SOCIAL"></span></li>
+                                            <li><div class="label_checkbox"><label><input type="checkbox" value="CATEGORY_PROMOTIONS"></label></div><span class="hrgmail_move_to_promotions" data-id="CATEGORY_PROMOTIONS"></span></li>
+                                            <li><div class="label_checkbox"><label><input type="checkbox" value="CATEGORY_UPDATES"></label></div><span class="hrgmail_move_to_updates" data-id="CATEGORY_UPDATES"></span></li>
+                                            <li><div class="label_checkbox"><label><input type="checkbox" value="CATEGORY_FORUMS"></label></div><span class="hrgmail_move_to_forums" data-id="CATEGORY_FORUMS"></span></li>
+                                        </ul>
+                                       </div>
+                                       <div class="social_parmotions lastParmotons">
+                                        <ul>
+                                            <li><span></span></li>                                            
+                                        </ul>
+                                       </div>
+                                    </div>                               
+                                </div>
+                              </div>
+                            </li>
+                            
+                            <li>
+                              <div class="hrgmail_allRead_btnType hrgmail_allRead_more">
+                                <div class="hrgmail_allRead_more_select"><span></span>                                 
+                                
+                                    <div class="hrgmail_defaultDropdown  hrgmail_allCheck hrgmail_unread" id="hrgmail_unread" style="display: none">
+                                        <ul>
+                                            <li><span class="hrgmail_mark_all_as_read_title" data-id="all-read"></span></li>  
+                                        </ul>
+                                        
+                                        <div class="hrgmail_selectMessages">
+                                        	<i></i>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>  
+              <div class="hrgmail_hdr_formatBar_right hrgmail_pagination">
+                <ul>
+                  <li>
+                      <div class="hrgmail_mailsOut_ofNo hrgmail_main_pagination"> <strong>0-0</strong><span></span> <strong>0</strong> </div>
+                  </li>
+                  <li>
+                    <div class="hrgmail_allRead_btnType hrgmail_showMails_nextPrev"> 
+                        <span><i class="hrgmail_showMails_prev"></i></span> 
+                        <span><i class="hrgmail_showMails_next"></i></span> 
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </section>
+           
+  </section>
+    
+    <section class="gmailstartScreen accountNotRegister">
+          <i class="gmail-dig"></i>
+          <h1></h1> 
+          <p></p>
+          <span class="add-account"></span>
+    </section>
+    
+    <section class="ui-content gmail-content accountRegistered" style="display: none;">
+      
+   <div class="hrgmail_box_content">
+                  <div class="hrgmail_box_contentInnr clearfix">
+                    <div class="hrgmail_main_leftBar_outer">
+                      <div class="hrgmail_main_leftBar_innr">
+                          <div class="hrgmail_lftBr_composBtn_out"> <span class="hrgmail_composBtn" id="compose-button"></span> </div>
+                        <div class="hrgmail_lftBr_inbxMenue hrgmail_scroll">
+                          <ul>
+                            <li class="hrgmail_active INBOX"><span data-id="INBOX"></span> </li>
+                            <li class="STARRED"><span data-id="STARRED"></span> </li>
+                            <li class="SENT"><span data-id="SENT"></span> </li>
+                            <li class="DRAFT"><span data-id="DRAFT"></span> </li>
+                            <li class="IMPORTANT"><span data-id="IMPORTANT"></span> </li>
+                            <li class="ALL"><span data-id="ALL"></span> </li>
+                            <li class="SPAM"><span data-id="SPAM"></span> </li>
+                            <li class="TRASH"><span data-id="TRASH"></span> </li>
+                            <li class="CATEGORY_SOCIAL"><span data-id="CATEGORY_SOCIAL"></span> </li>
+                            <li class="CATEGORY_PROMOTIONS"><span data-id="CATEGORY_PROMOTIONS"></span> </li>
+                            <li class="CATEGORY_UPDATES"><span data-id="CATEGORY_UPDATES"></span> </li>
+                            <li class="CATEGORY_FORUMS"><span data-id="CATEGORY_FORUMS"></span> </li>
+                        </ul>
+                        </div>
+                        <div class="hrgmail_lftBr_addAccountsOut">
+                          <div class="hrgmail_lftBr_addAccountsInnr">
+                            <div class="hrgmail_lftBr_addAccountsTtile">
+                                <h2 class="clearfix">
+                                    <span></span>
+                                    <b class="add-account"></b>
+                                </h2>
+                            </div>
+                            <div class="hrgmail_lftBr_adedAccunts_apended hrgmail_scroll">
+                              <ul>
+                                
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="hrgmail_main_rightBar_outer">
+                        
+                    	<div class="hrgmail_mailsContent hrgmail_scroll " >
+                            <ul></ul>
+                        </div>  
+ 
+                        <div class="hrgmail_mailsContentDetails hrgmail_scroll_content" style="display: none;">
+
+                        <div class="hrgmail_readmailTitle">
+                            <div class="hrgmail_readmailTitle_text clearfix">
+                                   <h3></h3>
+                                   <div class="hrgmail_importantMail clearfix">
+                                       
+                                       <div class="hrgmailimoprtantInner clearfix">
+                                           <label><input type="checkbox"></label>
+                                       </div>
+<!--                                       <div class="hrgmailstarredInner clearfix">
+                                           <label><input type="checkbox"></label>
+                                       </div>                                       -->
+                                       <div class="hrgmailInbox clearfix">
+                                               <span class="hrmailInbox" >Inbox</span>
+                                               <!-- <span  class="hrmailInboxclose">x</span>		-->
+                                       </div>                                
+                                   </div>
+                             </div>                             
+                        </div>
+                            <div class="hrgmail_dynamic_messages_outer">
+                        
+                            <div class="hrgmail_dynamic_thread_messages ">
+                                <!--dynamic contents here-->
+                            </div>                                                            
+                                
+                            <div class="hrgmail_main_reply_outer clearfix"> 
+                              <div class="hrgmail_main_reply_main_inner    clearfix"> 
+                                <div class="hrgmailReplyer_img">
+                                    <span><img class="user-avatar" src="https://static.horbito.com/app/522/hrgmail_hdr_usrPro_pic.png"></span>
+
+                                </div>
+                                <div class="hrgmail_main_reply_inner clearfix">
+                                    <div class="hrgmail_click_here">
+                                        <span class="click_here_text"> </span><i id="hrgmail_click_here_reply"></i> <span>  </span> <i id="hrgmail_click_here_forward"></i>
+
+                                    </div>
+                                   <div class="hrgmail_main_reply">  
+
+                                      <div class="hrgmail_newMessage_content wz-drop-area">    
+                                        <div class="hrgmail_newMessage_fields">   
+                                            <div class="hrgmail_subject_to_field"> 
+                                                <div class="hrgmail_recieptfield" id="hrgmail_cc_outer_main_reply">    
+                                                    <label></label>
+                                                    <input type="text" id="tokenize-to-main_reply" class="hrgmail_to_filed tags compose-to" />
+                                                    <div id="hrgmail_cc_html_main_reply"><label></label><input type="text" id="tokenize-cc-main_reply" class="tags" /></div>
+                                                    <div id="hrgmail_bcc_html_main_reply"><label></label><input type="text" id="tokenize-bcc-main_reply" class="tags" /></div>
+                                                    <div class="hrgmail_cc_bcc">                       
+                                                        <span id="hrgmail_cc_main_reply"></span>   
+                                                        <span id="hrgmail_bcc_main_reply"></span>         
+                                                    </div>        
+                                                </div>        
+                                                <div class="hrgmail_recipients" id="hrgmail_recipients_main_reply" style="display: none;"> 
+                                                    <span></span>       
+                                                </div>               
+                                            </div> 
+                                            <div class="hrgmail_subject_to_field display_none">
+                                                <div class="hrgmail_recieptfield">
+                                                    <input type="text" id="hrgmail_subject_main_reply" class="hrgmail_subject_filed" />
+                                                    <input type="hidden" id="hrgmail_to_email_main_reply" />
+                                                    <input type="hidden" id="hrgmail_message_id_main_reply" />
+                                                    <input type="hidden" id="hrgmail_append_reply_text_main_reply" />
+                                                    <input type="hidden" id="hrgmail_append_forward_text_main_reply" />
+                                                </div>
+                                            </div>
+                                        </div>              
+                                          <div class="hrgmail_enteremail_area" id="hrgmail_enteremail_area_main_reply">          
+                                              <textarea class="compose-message" id="hrgmail_message_main_reply"  ></textarea> 
+                                              <div class="hrgmail_fileName hrgmail_fileName_main_reply"><ul></ul></div>
+                                          </div>
+                                          <span class="hrgmail_drag_drop display_none">Drop files here</span>
+                                          <div class="hrgmail_attachment_section clearfix">
+                                              <div class="hrgmail_attach_icon">
+                                                  <span class="hrgmail_attach_btn hrgmail_attach_btn_main_reply">&nbsp;</span> 
+                                                  <div class="hrgmail_defaultDropdown" id="atachDropdown" style="display:none;">
+                                                      <ul>
+                                                          <li><a href="javascript:void(0)">Attach from horbito</a></li>
+                                                          <li><a href="javascript:void(0)">Upload from PC</a></li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <div class="hrgmail_enviar_bttn">
+                                                    <span class="saving_text" id="saving_text_main_reply"></span>
+                                                    <span class="delete_draft" id="delete_draft_main_reply"></span>
+                                                    <span class="send_draft" id="send_draft_main_reply"></span>
+                                              </div>
+                                          </div>
+                                      </div>              
+                                   </div>
+                                </div>                                    
+                             </div>
+                            </div>
+                                
+                            </div>
+ 
+                    	</div>
+                        
+                    </div>
+                        
+                  </div>
+                  
+                <!-- Chatbox -->
+                <div id="chatbox-html"></div>
+                
+                </div>
+  </section>
+    <div class="ho_gmail_error_success" >
+            <span class="mailsuccess"></span>
+            <span class="mailerror"></span>
+    </div>
+</section>
+
+
+
+
