@@ -1,9 +1,5 @@
-$.getScript("https://cdnjs.cloudflare.com/ajax/libs/jquery-te/1.4.0/jquery-te.min.js",
+$.getScript("https://cdn.ckeditor.com/4.8.0/full/ckeditor.js",
     function (data, textStatus, jqxhr) {        
-});
-
-$.getScript("https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=emv49hqqmnumtm201ojtlu8l8efvjncps2phni2ll9huan4j",
-    function (data, textStatus, jqxhr) {                          
 });
 
 $.getScript("https://static.horbito.com/app/522/md5/md5.min.js",
@@ -48,10 +44,11 @@ var maxResults = 20;
 var nextPageToken = '';
 var gmail_win = $(this);
 var gmail_signature = "";
-var three_dots_html = "<div class=\"hrgmail_threedot\"> ... </div>";
+var three_dots_html = "<div class=\"hrgmail_threedot\">...</div>";
 var message_iframe_bottom_padding = 15;
 var login_error = 1;
 var win = $(this);
+
 
 // set multi language
 $('.app-title').text(lang.gmailTitle);
@@ -185,15 +182,17 @@ $(".hrgmail_refresh_title").attr('title', lang.gmailRefresh);
                     </div>\
                     <span class="hrgmail_drag_drop display_none">Drop files here</span>\
                     <div class="hrgmail_attachment_section clearfix">\
-                        <div class="hrgmail_attach_icon">\
-                            <span class="hrgmail_attach_btn hrgmail_attach_btn_' + el.id + '">&nbsp;</span>\
+                        <div class="hrgmail_attachment_section_inner">\
+                            <div class="hrgmail_attach_icon">\
+                                <span class="hrgmail_attach_btn hrgmail_attach_btn_' + el.id + '">&nbsp;</span>\
+                            </div>\
+                            <div class="hrgmail_enviar_bttn">\
+                                <span class="saving_text" id="saving_text_' + el.id + '"></span>\
+                                <span class="delete_draft" id="delete_draft_' + el.id + '" title="' + lang.gmailDiscardDraft + '"></span>\
+                                <span class="send_draft" id="send_draft_' + el.id + '">' + lang.gmailSend + '</span>\
+                            </div>\
                         </div>\
-                        <div class="hrgmail_enviar_bttn">\
-                            <span class="saving_text" id="saving_text_' + el.id + '"></span>\
-                            <span class="delete_draft" id="delete_draft_' + el.id + '" title="' + lang.gmailDiscardDraft + '"></span>\
-                            <span class="send_draft" id="send_draft_' + el.id + '">' + lang.gmailSend + '</span>\
-                        </div>\
-                        </div>\
+                     </div>\
                     </div>\
                </div>';
 
@@ -871,13 +870,18 @@ function append_iframe_contents(message,dynamic_el)
                 </script>';
 
                   console.log("appending iframe html");
-                  
+        
+        iframe_html = iframe_html.replace(three_dots_html, "");  
+        
         var iframe = $('#message-iframe-' + message.id)[0].contentWindow.document;
         $('body', iframe).html(iframe_js + iframe_css + "<div class='iframe-content'> " + iframe_html + "</div>");
 
         console.log("appended iframe html");
-
+        
+        
+        
         setTimeout(function () {
+            $('#message-iframe-' + message.id).contents().find(".hrgmail_threedot").remove();
             
             $('#message-iframe-' + message.id).contents().find(".hrgmail_reply_content").css('display','block');
             
@@ -1643,14 +1647,6 @@ gmail_win.on('click', '#hrgmail_click_here_forward', function (e)
     gmail_reply_forward_chatbox_append(last_count, 'forward');
 });
 
-// show reply content
-gmail_win.on('click', '.hrgmail_threedot', function (e)
-{
-    $(this).parent(".jqte_editor").find(".hrgmail_reply_content").removeClass("display_none");
-    $(this).remove();   // It is BUG
-    //$(this).next(".gmail_extra").toggle();
-});
-
 // reply forward options list hide show
 gmail_win.on('click', '.hrgmail_hdr_srchDropDown', function (e)
 {
@@ -1763,14 +1759,7 @@ function gmail_append_attachment_files(id)
 
             var removeType = 2;
         }
-        
-//        var active_editor = tinymce.activeEditor; 
-//        
-//        var aaaa = tinymce.activeEditor.selection.select(".just_for_test");
-//       
-//        console.log('aaaa '+aaaa);
-//        return;
-//        active_editor.find(".just_for_test").append(        
+                
         $(".hrgmail_fileName_" + id + " ul").append(
             '<li><div class="hrgmail_fileName_main clearfix"> \
             <span><span ' + errorStyle + '>' + dynamic_var['arrayFiles' + id][i].name + ' </span>\
@@ -2119,10 +2108,10 @@ function gmail_show_messages(labelIds = 'INBOX', select = 'INBOX')
         if(error)
            gmailErrorHandling(error);      
         
-        //console.log('messages ' + JSON.stringify(messages));
+        
         if(messages){
             
-            console.log('show messages success');
+            console.log('saragsc test ', messages);
             
             if (messages.nextPageToken) {
                 $("#lastPage").val(1);
@@ -2194,17 +2183,58 @@ function gmail_show_messages(labelIds = 'INBOX', select = 'INBOX')
                                 if (jQuery.inArray("IMPORTANT", this.labelIds) != -1)
                                     important = 1;
                             
-                                // create message label                                 
-                                if (jQuery.inArray("SENT", this.labelIds) != -1) 
-                                {                                    
-                                    
-                                    if(labelIds == "SENT"){
-                                       thread_time = dateFormate(getHeader(this.payload.headers, 'Date')); 
-                                    }
-                                    
-                                    var toemails = getHeader(this.payload.headers, 'To').toString().split(",");                                    
-                                    for (var i = 0; i < toemails.length; i++) {
-                                        var to = toemails[i].split('@');
+                                if (jQuery.inArray("TRASH", this.labelIds) == -1){    
+                                    // create message label                                 
+                                    if (jQuery.inArray("SENT", this.labelIds) != -1) 
+                                    {                                    
+
+                                        if(labelIds == "SENT"){
+                                           thread_time = dateFormate(getHeader(this.payload.headers, 'Date')); 
+                                        }
+
+                                        var toemails = getHeader(this.payload.headers, 'To').toString().split(",");                                    
+                                        for (var i = 0; i < toemails.length; i++) {
+                                            var to = toemails[i].split('@');
+                                            var to_data = to[0].split('<');
+
+                                            if(to_data[0] == ""){
+                                                var to_data_split_to = to_data[1].split('@');
+                                                var to_text_split = to_data_split_to[0];
+                                            }else{
+                                                var to_text_split = to_data[0];
+                                            }
+
+                                            to_text_split = $.trim(to_text_split);
+
+                                            var to_label_split = to_text.toString().split(",");
+                                            $.each(to_label_split, function (id, val) {
+                                                to_label_split[id] = $.trim(val);
+                                            });
+
+                                            if(jQuery.inArray(to_text_split, to_label_split) == -1){                                        
+                                                to_text += (to_text == "" ? to_text_split : ", "+to_text_split);                                 
+                                            }
+
+                                        }
+
+
+                                        var inbox_label_split = inbox_label.toString().split(",");
+                                        $.each(inbox_label_split, function (id, val) {
+                                            inbox_label_split[id] = $.trim(val);
+                                        });
+                                        if(jQuery.inArray(lang.gmailMe, inbox_label_split) == -1){                                        
+                                            inbox_label += (inbox_label == "" ? lang.gmailMe : ", "+lang.gmailMe);                                        
+                                        }
+                                    }else 
+                                    {
+                                     if(jQuery.inArray("DRAFT", this.labelIds) != -1){
+                                        inbox_label += ', <span style="color:#DD4B39;">Draft</span>'; 
+                                     }else{   
+                                        if(labelIds != "SENT"){
+                                           thread_time = dateFormate(getHeader(this.payload.headers, 'Date')); 
+                                        }
+
+                                        var to = getHeader(this.payload.headers, 'From').toString().split('@');
                                         var to_data = to[0].split('<');
 
                                         if(to_data[0] == ""){
@@ -2213,56 +2243,21 @@ function gmail_show_messages(labelIds = 'INBOX', select = 'INBOX')
                                         }else{
                                             var to_text_split = to_data[0];
                                         }
-                                        
-                                        to_text_split = $.trim(to_text_split);
-                                         
-                                        var to_label_split = to_text.toString().split(",");
-                                        $.each(to_label_split, function (id, val) {
-                                            to_label_split[id] = $.trim(val);
-                                        });
-                                        
-                                        if(jQuery.inArray(to_text_split, to_label_split) == -1){                                        
-                                            to_text += (to_text == "" ? to_text_split : ", "+to_text_split);                                 
-                                        }
-                                        
-                                    }
-                                    
-                                    
-                                    var inbox_label_split = inbox_label.toString().split(",");
-                                    $.each(inbox_label_split, function (id, val) {
-                                        inbox_label_split[id] = $.trim(val);
-                                    });
-                                    if(jQuery.inArray(lang.gmailMe, inbox_label_split) == -1){                                        
-                                        inbox_label += (inbox_label == "" ? lang.gmailMe : ", "+lang.gmailMe);                                        
-                                    }
-                                }else 
-                                {
-                                    if(labelIds != "SENT"){
-                                       thread_time = dateFormate(getHeader(this.payload.headers, 'Date')); 
-                                    }
-                                    
-                                    var to = getHeader(this.payload.headers, 'From').toString().split('@');
-                                    var to_data = to[0].split('<');
 
-                                    if(to_data[0] == ""){
-                                        var to_data_split_to = to_data[1].split('@');
-                                        var to_text_split = to_data_split_to[0];
-                                    }else{
-                                        var to_text_split = to_data[0];
-                                    }
-                                                                        
-                                    to_text_split = $.trim(to_text_split);
-                                    to_text = to_text_split;
-                                    
-                                    var inbox_label_split = inbox_label.toString().split(",");
-                                    $.each(inbox_label_split, function (id, val) {
-                                        inbox_label_split[id] = $.trim(val);
-                                    });
-                                    if(jQuery.inArray(to_text_split, inbox_label_split) == -1){
-                                        inbox_label += (inbox_label == "" ? to_text_split : ", "+ to_text_split );
-                                    }
-                                    
+                                        to_text_split = $.trim(to_text_split);
+                                        to_text = to_text_split;
+
+                                        var inbox_label_split = inbox_label.toString().split(",");
+                                        $.each(inbox_label_split, function (id, val) {
+                                            inbox_label_split[id] = $.trim(val);
+                                        });
+                                        if(jQuery.inArray(to_text_split, inbox_label_split) == -1){
+                                            inbox_label += (inbox_label == "" ? to_text_split : ", "+ to_text_split );
+                                        }
+                                     }
                                 }
+                                }
+                                
                             });                                                        
                             
                             if(new_total_messages > 1)
@@ -2270,7 +2265,9 @@ function gmail_show_messages(labelIds = 'INBOX', select = 'INBOX')
 
                             messages_ids = messages_ids_array.join(",");
                             
-                            var email_message_label = ((labelIds != "DRAFT") ? (((labelIds == "SENT") ? 'To: ' + to_text : inbox_label)) + total_messages_text : '<span>Draft</span>');                            
+                            var email_message_label = ((labelIds != "DRAFT") ? (((labelIds == "SENT") ? 'To: ' + to_text : inbox_label)) + total_messages_text : '<span style="color:#DD4B39;">Draft</span>');                            
+                            
+                            console.log('email_message_label '+email_message_label);
                        // }
 
                         //check attachments
@@ -2383,37 +2380,92 @@ function gmail_show_messages(labelIds = 'INBOX', select = 'INBOX')
 
 function append_chatbox_methods(id)
 {
-    tinymce.init({ 
-            selector:'#hrgmail_message_'+ id,
-            menubar:false,
-            branding: false,
-            statusbar: false,
-            //allow_script_urls: true,
-            resize: false,
-//            forced_root_block : false,
-//            force_p_newlines : false,
-//            remove_linebreaks : false,
-//            force_br_newlines : true,
-            forced_root_block : "",
-            height : 230,
-            toolbar_items_size : 'small',
-            plugins: "textcolor colorpicker link ",
-            theme_advanced_font_sizes: "12px,13px,14px,16px,18px,20px",
-            font_size_style_values: "12px,13px,14px,16px,18px,20px",    
-            toolbar: 'bold italic underline fontsizeselect forecolor backcolor | link blockquote alignleft aligncenter alignright',
-            //fontsize_formats: '8pt 10pt 12pt 14pt 18pt 24pt 36pt',
-           // content_css: ['https://static.horbito.com/style/reset.css'],
-            content_style: "body {padding: 3px;color:#222;font-family: 'Arial';font-size: 13px;} body p{margin:0;} blockquote{margin: 0px 0px 0px 0.8ex;border-left: 1px solid rgb(204, 204, 204);padding-left: 1ex;} .display_none{display:none !important;} .hrgmail_threedot{ height: 10px; background-color: #f5f5f5; border: 1px solid #ddd; line-height: 2px; font-weight: bold;width: 20px;padding: 0px 0px 0px 6px; cursor: pointer; border-radius: 2px;}",
-            init_instance_callback: function(editor) {
-                editor.on('click', function(e) {
-                    if(e.target.className == "hrgmail_threedot"){
-                        e.target.nextSibling.style.display = 'block';
-                        e.target.remove();                        
-                    }
-                    refresh_compose_box(id);
+    dynamic_var['editor_'+ id] = CKEDITOR.replace( 'hrgmail_message_'+id,{
+            height: '235px',
+          //  width: '449px',
+            removePlugins: 'elementspath,magicline',
+            resize_enabled: false,
+            allowedContent: true,
+            enterMode: CKEDITOR.ENTER_BR,
+            shiftEnterMode: CKEDITOR.ENTER_BR,
+            contentsCss : 'https://static.horbito.com/app/522/ckeditor.css',
+            toolbar: [
+                [ 'Bold','Italic','Underline','-','TextColor','BGColor','-', 'Font', 'FontSize','JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock', /*'-','NumberedList','BulletedList',*/ '-','Blockquote'],
+            ],
+        } ); 
+      
+
+
+    dynamic_var['editor_'+ id].on("click", function(e){      
+
+        console.log("Burhan single click");
+
+
+
+            console.log('click');
+            var editor_iframe = $("#cke_hrgmail_message_"+id).find("iframe").contents().find("body .hrgmail_threedot");
+            var el = e.data.$.target.closest(".hrgmail_threedot");
+            console.log('el ',el);
+            if(el){
+                editor_iframe.next("div").css('display','block');
+                el.remove();
+            }           
+            
+            refresh_compose_box(id);   
+    /*          
+        this.document.on("click", function(e){   
+            console.log('click');
+            var editor_iframe = $("#cke_hrgmail_message_"+id).find("iframe").contents().find("body .hrgmail_threedot");
+            var el = e.data.$.target.closest(".hrgmail_threedot");
+            console.log('el ',el);
+            if(el){
+                editor_iframe.next("div").css('display','block');
+                el.remove();
+            }           
+            
+            refresh_compose_box(id);   
+        });
+        */
+    });
+
+
+    
+    dynamic_var['editor_'+ id].on( 'contentDom', function() {
+    
+        var editable = dynamic_var['editor_'+ id].editable();
+        var win = this.document.getWindow();
+
+        editable.on("click", function(e){      
+
+            var editor_iframe = $("#cke_hrgmail_message_"+id).find("iframe").contents().find("body .hrgmail_threedot");
+            var el = e.data.$.target.closest(".hrgmail_threedot");
+            if(el){
+                editor_iframe.next("div").css('display','block');
+                el.remove();
+            }           
+            
+            refresh_compose_box(id);   
+        });
+
+        editable.attachListener( editable.getDocument(), 'wheel', function(e) {                                      
+                
+            var scroll = win.getScrollPosition();   
+            var scrollTop = scroll.y;   
+            var delta = e.data.$.deltaY;                        
+            if(delta < 0 && scrollTop == 0){
+                
+                var mscScrollTop = $(".hrgmail_dynamic_thread_messages").height() - 250;
+                
+                $('.hrgmail_scroll_content').mCustomScrollbar("scrollTo", mscScrollTop, {
+                    scrollInertia: 800,
+                    scrollEasing:"easeOut"
                 });
-            }
-        });        
+            }                                    
+            
+        });
+    });
+    
+    
     
     var emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     $("#tokenize-to-" + id).tagsInput({pattern:emailRegex, inputPadding: "50", width: "auto", height: "auto", defaultText: ""});
@@ -2430,13 +2482,10 @@ function append_chatbox_methods(id)
         $(this).hide();
     });
     $("#hrgmail_recipients_" + id).hide();
-
+    
     if (gmail_signature != "" && id != "main_reply") {
-        setTimeout(function(){
-            tinymce.activeEditor.setContent("<br/>---" + gmail_signature+ "<div class='just_for_test'></div>");
-            //tinymce.activeEditor.focus();
-        },1500); 
-    }
+        $("#hrgmail_message_"+id).val("<br/>---" + gmail_signature ); 
+    }         
     
     $("#tokenize-to-" + id+"_tag").focus();
 
@@ -2450,6 +2499,10 @@ function append_chatbox_methods(id)
     dynamic_var["send_message" + id] = false;
     dynamic_var['interval_var' + id] = 1;
     
+    $("#cke_hrgmail_message_"+id).find("iframe").contents().find("body .hrgmail_threedot").on('click', function () {
+       console.log('bbaabbaa'); 
+    });
+    
     gmail_win.on("blur", "#hrgmail_subject_" + id , function ()
     {
         refresh_compose_box(id);
@@ -2461,6 +2514,11 @@ function append_chatbox_methods(id)
     });
    
     gmail_win.on("keydown", "#hrgmail_subject_" + id , function ()
+    {
+        refresh_compose_box(id);
+    });
+    
+    gmail_win.on("click", "#hrgmail_message_" + id , function ()
     {
         refresh_compose_box(id);
     });
@@ -2485,7 +2543,7 @@ function append_chatbox_methods(id)
         var cc = $("#tokenize-cc-" + id).val();
         var bcc = $("#tokenize-bcc-" + id).val();
         var subject = $("#hrgmail_subject_" + id).val();
-        var message = tinymce.activeEditor.getContent(); 
+        var message = $('#hrgmail_message_'+ id).val();
 
         if (compose_to != "") {
             if (subject == '' && message == '') {
@@ -2549,7 +2607,7 @@ function append_chatbox_methods(id)
             $("#tokenize-to-" + id).importTags('');
             $("#tokenize-cc-" + id).val('');
             $("#tokenize-bcc-" + id).val('');
-            $("#hrgmail_message_" + id).html('');
+            $("#hrgmail_message_" + id).val('');
             $("#hrgmail_cc_outer_" + id).show();
             $("#hrgmail_cc_html_" + id).hide();
             $("#hrgmail_bcc_html_" + id).hide();
@@ -2576,7 +2634,8 @@ function append_chatbox_methods(id)
         });
     });
 
-    $('.wz-drop-area').on( 'wz-drop', function( e, item, list ){
+    $('.wz-drop-area').on( 'wz-drop', function( e, item, list )
+    {
       // list is an array of objects. Each object has an attribute fsnode
       console.log('DROP!');
       var fsnodeList = [];
@@ -2681,7 +2740,8 @@ function append_chatbox_methods(id)
     });
 
 
-    gmail_win.on("keydown", "#tokenize-to-" + id + "_tag", function (e) {
+    gmail_win.on("keydown", "#tokenize-to-" + id + "_tag", function (e) 
+    {
         var keyCode = e.keyCode || e.which;
         if (keyCode == 9) {
             e.preventDefault();
@@ -2792,7 +2852,8 @@ function grmail_refresh_messages()
 }
 
 // get signature
-function gmail_get_signature() {
+function gmail_get_signature() 
+{
 
     gmail_current_account.usersSettingsSendAsList(function (error, settings) {
         
@@ -2814,16 +2875,14 @@ function create_draft(boxId)
     var cc = $("#tokenize-cc-" + boxId).val();
     var bcc = $("#tokenize-bcc-" + boxId).val();
     var subject = $("#hrgmail_subject_" + boxId).val();
-    var message = tinymce.activeEditor.getContent();    
-    
+    var message = dynamic_var['editor_' + boxId].getData();    
+
     // Removing three dots ... otherwise it will be sent within message
     message = message.replace(three_dots_html, "");
 
     if (compose_to == "" && cc == "" && bcc == "" && subject == "" && message == "" && dynamic_var['arrayFilesIds' + boxId] == "") {
 
-    } else {
-
-        
+    } else {       
 
         var createParam = {
             from: gmail_current_account.name + ' <' + gmail_current_account.email + '>',
@@ -2903,11 +2962,13 @@ function create_reply_draft(boxId)
     var cc = $("#tokenize-cc-" + boxId).val();
     var bcc = $("#tokenize-bcc-" + boxId).val();
     var subject = $("#hrgmail_subject_" + boxId).val();
-    var message = tinymce.activeEditor.getContent(); 
-
+    var message = dynamic_var['editor_' + boxId].getData(); 
+    
     // Removing three dots ... otherwise it will be sent within message
-    message = message.replace(three_dots_html, "");    
-
+    message = message.replace(three_dots_html, "");  
+    // Removing hrgmail_reply_content style and hrgmail_threedot class
+    message = message.replace("display:none;", "");  
+      
     if (compose_to == "" && cc == "" && bcc == "" && subject == "" && message == "") {
     } else {
         var createParam = {
@@ -3128,16 +3189,9 @@ function create_reply_draft_compose_box(threadId)
                         // append message content in texteditor
                         getBody(draft_data.message)
                         .done(function(message,iframe_html) {
-                            //console.log('iframe_html '+iframe_html);
-                            setTimeout(function(){
-                                tinymce.activeEditor.setContent(iframe_html);
-                                tinymce.activeEditor.focus();
-                            }, 1000);    
-                            //$("#hrgmail_enteremail_area_" + boxId).find(".jqte_editor").focus().html(iframe_html);
+                            $("#hrgmail_message_main_reply").val("<br/>---" + gmail_signature );
+                            //dynamic_var['quill_main_reply'].focus();
                         });
-                        
-
-                        
                     }
                 });
 
@@ -3188,7 +3242,7 @@ function gmail_send_draft_message(boxId)
                         $(".hrgmail_main_reply").hide();
                         $("#tokenize-cc-" + boxId).val('');
                         $("#tokenize-bcc-" + boxId).val('');
-                        $("#hrgmail_message_" + boxId).html('');
+                        $("#hrgmail_message_" + boxId).val('');
                         $("#hrgmail_cc_outer_" + boxId).show();
                         $("#hrgmail_cc_html_" + boxId).hide();
                         $("#hrgmail_bcc_html_" + boxId).hide();
@@ -3426,19 +3480,20 @@ function gmail_reply_forward_chatbox_append(id, type)
 //             
 //        });
         
-    }        
+    }
     
-    setTimeout(function(){
-        tinymce.activeEditor.setContent(append_html);
+
+    if(type == 'reply'){
+       dynamic_var['editor_main_reply'].setData(append_html, function() {
+            dynamic_var['editor_main_reply'].focus();
+        }); 
+    }else{
+        dynamic_var['editor_main_reply'].setData(append_html);
         
-        if(type == 'reply'){
-            tinymce.activeEditor.focus(); 
-        }else{
-            $(".hrgmail_recipients").click();
-            $("#tokenize-to-main_reply_tag").focus();
-        }
+        $(".hrgmail_recipients").click();
+        $("#tokenize-to-main_reply_tag").focus();
+    }
                        
-    },1000); 
 
     refresh_compose_box('main_reply');
     
