@@ -243,11 +243,9 @@
                     </div>
                     
                     <div class="hrgmail_main_rightBar_outer">
-<!--                        <textarea class="tinymce"  name="example"></textarea>-->
                         
                     	<div class="hrgmail_mailsContent hrgmail_scroll " >
-                        	<ul>                             
-                        	</ul>
+                            <ul></ul>
                         </div>  
  
                         <div class="hrgmail_mailsContentDetails hrgmail_scroll_content" style="display: none;">
@@ -274,75 +272,75 @@
                         
                             <div class="hrgmail_dynamic_thread_messages ">
                                 <!--dynamic contents here-->
-                            </div>    
-                          
+                            </div>                                                            
+                                
                             <div class="hrgmail_main_reply_outer clearfix"> 
-                                <div class="hrgmail_main_reply_main_inner    clearfix"> 
-                                    <div class="hrgmailReplyer_img">
-                                        <span><img class="user-avatar" src="https://static.horbito.com/app/522/hrgmail_hdr_usrPro_pic.png"></span>
+                              <div class="hrgmail_main_reply_main_inner    clearfix"> 
+                                <div class="hrgmailReplyer_img">
+                                    <span><img class="user-avatar" src="https://static.horbito.com/app/522/hrgmail_hdr_usrPro_pic.png"></span>
+
+                                </div>
+                                <div class="hrgmail_main_reply_inner clearfix">
+                                    <div class="hrgmail_click_here">
+                                        <span class="click_here_text"> </span><i id="hrgmail_click_here_reply"></i> <span>  </span> <i id="hrgmail_click_here_forward"></i>
 
                                     </div>
-                                    <div class="hrgmail_main_reply_inner clearfix">
-                                        <div class="hrgmail_click_here">
-                                            <span class="click_here_text"> </span><i id="hrgmail_click_here_reply"></i> <span>  </span> <i id="hrgmail_click_here_forward"></i>
+                                   <div class="hrgmail_main_reply">  
 
-                                        </div>
-                                       <div class="hrgmail_main_reply">  
-
-                                          <div class="hrgmail_newMessage_content wz-drop-area">    
-                                            <div class="hrgmail_newMessage_fields">   
-                                                <div class="hrgmail_subject_to_field"> 
-                                                    <div class="hrgmail_recieptfield" id="hrgmail_cc_outer_main_reply">    
-                                                        <label></label>
-                                                        <input type="text" id="tokenize-to-main_reply" class="hrgmail_to_filed tags compose-to" />
-                                                        <div id="hrgmail_cc_html_main_reply"><label></label><input type="text" id="tokenize-cc-main_reply" class="tags" /></div>
-                                                        <div id="hrgmail_bcc_html_main_reply"><label></label><input type="text" id="tokenize-bcc-main_reply" class="tags" /></div>
-                                                        <div class="hrgmail_cc_bcc">                       
-                                                            <span id="hrgmail_cc_main_reply"></span>   
-                                                            <span id="hrgmail_bcc_main_reply"></span>         
-                                                        </div>        
+                                      <div class="hrgmail_newMessage_content wz-drop-area">    
+                                        <div class="hrgmail_newMessage_fields">   
+                                            <div class="hrgmail_subject_to_field"> 
+                                                <div class="hrgmail_recieptfield" id="hrgmail_cc_outer_main_reply">    
+                                                    <label></label>
+                                                    <input type="text" id="tokenize-to-main_reply" class="hrgmail_to_filed tags compose-to" />
+                                                    <div id="hrgmail_cc_html_main_reply"><label></label><input type="text" id="tokenize-cc-main_reply" class="tags" /></div>
+                                                    <div id="hrgmail_bcc_html_main_reply"><label></label><input type="text" id="tokenize-bcc-main_reply" class="tags" /></div>
+                                                    <div class="hrgmail_cc_bcc">                       
+                                                        <span id="hrgmail_cc_main_reply"></span>   
+                                                        <span id="hrgmail_bcc_main_reply"></span>         
                                                     </div>        
-                                                    <div class="hrgmail_recipients" id="hrgmail_recipients_main_reply" style="display: none;"> 
-                                                        <span></span>       
-                                                    </div>               
-                                                </div> 
-                                                <div class="hrgmail_subject_to_field display_none">
-                                                    <div class="hrgmail_recieptfield">
-                                                        <input type="text" id="hrgmail_subject_main_reply" class="hrgmail_subject_filed" />
-                                                        <input type="hidden" id="hrgmail_to_email_main_reply" />
-                                                        <input type="hidden" id="hrgmail_message_id_main_reply" />
-                                                        <input type="hidden" id="hrgmail_append_reply_text_main_reply" />
-                                                        <input type="hidden" id="hrgmail_append_forward_text_main_reply" />
-                                                    </div>
+                                                </div>        
+                                                <div class="hrgmail_recipients" id="hrgmail_recipients_main_reply" style="display: none;"> 
+                                                    <span></span>       
+                                                </div>               
+                                            </div> 
+                                            <div class="hrgmail_subject_to_field display_none">
+                                                <div class="hrgmail_recieptfield">
+                                                    <input type="text" id="hrgmail_subject_main_reply" class="hrgmail_subject_filed" />
+                                                    <input type="hidden" id="hrgmail_to_email_main_reply" />
+                                                    <input type="hidden" id="hrgmail_message_id_main_reply" />
+                                                    <input type="hidden" id="hrgmail_append_reply_text_main_reply" />
+                                                    <input type="hidden" id="hrgmail_append_forward_text_main_reply" />
                                                 </div>
-                                            </div>              
-                                              <div class="hrgmail_enteremail_area" id="hrgmail_enteremail_area_main_reply">          
-                                                  <textarea class="compose-message" id="hrgmail_message_main_reply"  ></textarea> 
-                                                  <div class="hrgmail_fileName hrgmail_fileName_main_reply"><ul></ul></div>
-                                              </div>
-                                              <span class="hrgmail_drag_drop display_none">Drop files here</span>
-                                              <div class="hrgmail_attachment_section clearfix">
-                                                  <div class="hrgmail_attach_icon">
-                                                      <span class="hrgmail_attach_btn hrgmail_attach_btn_main_reply">&nbsp;</span> 
-                                                      <div class="hrgmail_defaultDropdown" id="atachDropdown" style="display:none;">
-                                                          <ul>
-                                                              <li><a href="javascript:void(0)">Attach from horbito</a></li>
-                                                              <li><a href="javascript:void(0)">Upload from PC</a></li>
-                                                          </ul>
-                                                      </div>
-                                                  </div>
-                                                  <div class="hrgmail_enviar_bttn">
-                                                        <span class="saving_text" id="saving_text_main_reply"></span>
-                                                        <span class="delete_draft" id="delete_draft_main_reply"></span>
-                                                        <span class="send_draft" id="send_draft_main_reply"></span>
+                                            </div>
+                                        </div>              
+                                          <div class="hrgmail_enteremail_area" id="hrgmail_enteremail_area_main_reply">          
+                                              <textarea class="compose-message" id="hrgmail_message_main_reply"  ></textarea> 
+                                              <div class="hrgmail_fileName hrgmail_fileName_main_reply"><ul></ul></div>
+                                          </div>
+                                          <span class="hrgmail_drag_drop display_none">Drop files here</span>
+                                          <div class="hrgmail_attachment_section clearfix">
+                                              <div class="hrgmail_attach_icon">
+                                                  <span class="hrgmail_attach_btn hrgmail_attach_btn_main_reply">&nbsp;</span> 
+                                                  <div class="hrgmail_defaultDropdown" id="atachDropdown" style="display:none;">
+                                                      <ul>
+                                                          <li><a href="javascript:void(0)">Attach from horbito</a></li>
+                                                          <li><a href="javascript:void(0)">Upload from PC</a></li>
+                                                      </ul>
                                                   </div>
                                               </div>
-                                          </div>              
-                                       </div>
-                                    </div>                                    
-                                 </div>
+                                              <div class="hrgmail_enviar_bttn">
+                                                    <span class="saving_text" id="saving_text_main_reply"></span>
+                                                    <span class="delete_draft" id="delete_draft_main_reply"></span>
+                                                    <span class="send_draft" id="send_draft_main_reply"></span>
+                                              </div>
+                                          </div>
+                                      </div>              
+                                   </div>
+                                </div>                                    
                              </div>
-
+                            </div>
+                                
                             </div>
  
                     	</div>
